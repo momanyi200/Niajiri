@@ -1,2 +1,3 @@
 # Niajiri
-Laravel
+Laravel Ecommerce
+Web application
