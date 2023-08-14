@@ -1,0 +1,124 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2023-05-05 00:10:50 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 01:21:29 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 01:26:03 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 01:46:04 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 02:58:59 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 03:22:00 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 03:38:35 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 05:04:16 --> 404 Page Not Found: Env/index
+ERROR - 2023-05-05 05:14:03 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 05:15:45 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 05:25:43 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 05:40:00 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 05:40:02 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 07:16:05 --> 404 Page Not Found: Uploads/locations
+ERROR - 2023-05-05 07:16:06 --> 404 Page Not Found: Uploads/locations
+ERROR - 2023-05-05 07:16:07 --> 404 Page Not Found: Uploads/locations
+ERROR - 2023-05-05 07:33:33 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-05-05 07:47:09 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 07:59:32 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 08:26:15 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 08:33:31 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 08:52:53 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 08:57:07 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 08:57:07 --> 404 Page Not Found: Job/tips-how-to-make-money
+ERROR - 2023-05-05 09:05:07 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 09:19:52 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 09:53:10 --> 404 Page Not Found: Https:/www.niajiri.biz
+ERROR - 2023-05-05 09:59:39 --> 404 Page Not Found: Https:/www.niajiri.biz
+ERROR - 2023-05-05 10:09:50 --> 404 Page Not Found: Https:/www.niajiri.biz
+ERROR - 2023-05-05 10:11:22 --> 404 Page Not Found: Wp-loginphp/index
+ERROR - 2023-05-05 10:13:09 --> 404 Page Not Found: Faviconico/index
+ERROR - 2023-05-05 10:15:18 --> Severity: error --> Exception: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) /home/pencilfive/public_html/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2023-05-05 10:15:18 --> Severity: error --> Exception: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) /home/pencilfive/public_html/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2023-05-05 10:15:18 --> Severity: error --> Exception: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) /home/pencilfive/public_html/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2023-05-05 10:15:18 --> Severity: error --> Exception: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) /home/pencilfive/public_html/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2023-05-05 10:15:18 --> Severity: error --> Exception: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) /home/pencilfive/public_html/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2023-05-05 10:15:18 --> Severity: error --> Exception: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) /home/pencilfive/public_html/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2023-05-05 10:15:18 --> Severity: error --> Exception: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) /home/pencilfive/public_html/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2023-05-05 10:15:18 --> Severity: error --> Exception: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) /home/pencilfive/public_html/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2023-05-05 10:15:19 --> Severity: error --> Exception: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) /home/pencilfive/public_html/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2023-05-05 10:27:13 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 10:32:41 --> 404 Page Not Found: Https:/www.niajiri.biz
+ERROR - 2023-05-05 10:37:13 --> 404 Page Not Found: Wp-loginphp/index
+ERROR - 2023-05-05 10:43:16 --> 404 Page Not Found: Https:/www.niajiri.biz
+ERROR - 2023-05-05 10:44:50 --> 404 Page Not Found: Https:/www.niajiri.biz
+ERROR - 2023-05-05 10:47:32 --> 404 Page Not Found: Https:/www.niajiri.biz
+ERROR - 2023-05-05 11:01:33 --> 404 Page Not Found: 4php/index
+ERROR - 2023-05-05 11:23:27 --> 404 Page Not Found: admin/Elfinder/src
+ERROR - 2023-05-05 11:29:19 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 11:35:47 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 12:16:45 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 12:51:10 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 13:01:34 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 13:10:41 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 13:10:51 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 13:19:09 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 13:53:29 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 14:42:16 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 14:55:35 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 14:56:02 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 15:19:36 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 15:19:44 --> 404 Page Not Found: Profile/h%C3%BCsn%C3%BC-comak
+ERROR - 2023-05-05 15:20:02 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-05-05 15:20:16 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-05-05 15:20:28 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-05-05 15:20:39 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-05-05 15:20:56 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-05-05 15:21:03 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 15:21:12 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-05-05 15:21:25 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-05-05 15:21:35 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-05-05 15:21:44 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-05-05 15:21:55 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-05-05 15:22:04 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-05-05 15:22:09 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-05-05 15:22:17 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-05-05 15:22:29 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-05-05 15:22:35 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-05-05 16:15:47 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 16:15:48 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-05-05 16:35:18 --> 404 Page Not Found: Wordpress/index
+ERROR - 2023-05-05 16:35:19 --> 404 Page Not Found: Wp/index
+ERROR - 2023-05-05 16:35:20 --> 404 Page Not Found: Bc/index
+ERROR - 2023-05-05 16:35:20 --> 404 Page Not Found: Bk/index
+ERROR - 2023-05-05 16:35:20 --> 404 Page Not Found: Backup/index
+ERROR - 2023-05-05 16:35:20 --> 404 Page Not Found: Old/index
+ERROR - 2023-05-05 16:35:20 --> 404 Page Not Found: New/index
+ERROR - 2023-05-05 16:35:20 --> 404 Page Not Found: Main/index
+ERROR - 2023-05-05 17:43:29 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 17:52:31 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 18:00:21 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 18:06:50 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 18:20:22 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 18:20:22 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 18:20:31 --> 404 Page Not Found: Service/i-will-develop-ios-and-android-mobile-app-using-react-native-16
+ERROR - 2023-05-05 18:27:45 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 18:30:55 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 18:30:59 --> 404 Page Not Found: Profile/h%C3%BCsn%C3%BC-comak
+ERROR - 2023-05-05 19:09:29 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 19:25:16 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 19:33:53 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 20:46:56 --> 404 Page Not Found: Uploads/badges
+ERROR - 2023-05-05 20:49:41 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 21:46:14 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 21:46:37 --> 404 Page Not Found: Adstxt/index
+ERROR - 2023-05-05 21:52:05 --> 404 Page Not Found: Helpdesk/vendor
+ERROR - 2023-05-05 21:52:06 --> 404 Page Not Found: Vendor/htmlawed
+ERROR - 2023-05-05 21:52:09 --> 404 Page Not Found: Glpi/vendor
+ERROR - 2023-05-05 21:52:13 --> 404 Page Not Found: Vendor/htmlawed
+ERROR - 2023-05-05 21:52:16 --> 404 Page Not Found: Support/vendor
+ERROR - 2023-05-05 21:52:19 --> 404 Page Not Found: Ticket/vendor
+ERROR - 2023-05-05 21:56:48 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 22:13:44 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 22:26:27 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-05-05 22:39:11 --> 404 Page Not Found: Wp-loginphp/index
+ERROR - 2023-05-05 23:02:08 --> 404 Page Not Found: Uploads/categories
+ERROR - 2023-05-05 23:02:09 --> 404 Page Not Found: Uploads/categories
+ERROR - 2023-05-05 23:02:09 --> 404 Page Not Found: Uploads/categories
+ERROR - 2023-05-05 23:29:18 --> 404 Page Not Found: Uploads/users
+ERROR - 2023-05-05 23:29:18 --> 404 Page Not Found: Uploads/users
+ERROR - 2023-05-05 23:29:19 --> 404 Page Not Found: Uploads/users
+ERROR - 2023-05-05 23:49:36 --> 404 Page Not Found: Wp-loginphp/index

@@ -1,0 +1,511 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2023-02-17 00:10:23 --> 404 Page Not Found: Profile/judy-dixon
+ERROR - 2023-02-17 00:22:36 --> 404 Page Not Found: Sendgridenv/index
+ERROR - 2023-02-17 00:22:44 --> 404 Page Not Found: Configjson/index
+ERROR - 2023-02-17 00:22:52 --> 404 Page Not Found: Env/index
+ERROR - 2023-02-17 00:40:28 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 00:53:35 --> 404 Page Not Found: Profile/john-paul
+ERROR - 2023-02-17 01:38:35 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 01:38:43 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 02:33:03 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 02:36:11 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 02:38:54 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 02:40:18 --> 404 Page Not Found: Profile/john-ron
+ERROR - 2023-02-17 02:41:46 --> 404 Page Not Found: Profile/joel-1
+ERROR - 2023-02-17 02:54:13 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 02:55:40 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 02:56:59 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 02:58:35 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 02:59:46 --> 404 Page Not Found: Job/digital-marketing-of-a-furniture-store
+ERROR - 2023-02-17 03:20:05 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 03:22:55 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 03:58:23 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 03:58:29 --> 404 Page Not Found: Professionals/index
+ERROR - 2023-02-17 04:06:08 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 04:06:08 --> 404 Page Not Found: Service/testing-one-samples
+ERROR - 2023-02-17 04:07:29 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 04:42:33 --> 404 Page Not Found: Faviconico/index
+ERROR - 2023-02-17 04:43:29 --> 404 Page Not Found: Faviconico/index
+ERROR - 2023-02-17 04:48:53 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 04:59:25 --> 404 Page Not Found: Page/home-v5
+ERROR - 2023-02-17 05:36:35 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 05:36:35 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 05:40:07 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 05:41:33 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 05:44:47 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 05:56:08 --> 404 Page Not Found: Job/digital-marketing-of-a-furniture-store
+ERROR - 2023-02-17 06:00:41 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 06:04:28 --> 404 Page Not Found: Job/we-fist-and-bumps
+ERROR - 2023-02-17 06:09:34 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 06:09:35 --> 404 Page Not Found: Profile/h%C3%BCsn%C3%BC-comak
+ERROR - 2023-02-17 06:09:36 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 06:09:41 --> 404 Page Not Found: Profile/h%C3%BCsn%C3%BC-comak
+ERROR - 2023-02-17 06:09:42 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 06:09:44 --> 404 Page Not Found: Profile/h%C3%BCsn%C3%BC-comak
+ERROR - 2023-02-17 06:11:44 --> 404 Page Not Found: Article/who-else-wants-to-be-successful-with-business
+ERROR - 2023-02-17 06:13:16 --> 404 Page Not Found: Tasklist/category
+ERROR - 2023-02-17 06:16:51 --> 404 Page Not Found: Env/index
+ERROR - 2023-02-17 06:19:30 --> 404 Page Not Found: Profile/james-faden-1
+ERROR - 2023-02-17 06:31:07 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 07:07:06 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 07:11:31 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 07:11:31 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 07:22:59 --> 404 Page Not Found: Services/index
+ERROR - 2023-02-17 07:25:55 --> 404 Page Not Found: Article/who-else-wants-to-be-successful-with-business
+ERROR - 2023-02-17 07:30:10 --> 404 Page Not Found: Service/baby-sitting-vacancy
+ERROR - 2023-02-17 07:38:53 --> 404 Page Not Found: Profile/picho-and-sons
+ERROR - 2023-02-17 07:46:39 --> 404 Page Not Found: Job/th-best-job-aroud
+ERROR - 2023-02-17 07:47:28 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 07:58:23 --> Severity: error --> Exception: Division by zero /home/pencilfive/public_html/application/helpers/currency_helper.php 419
+ERROR - 2023-02-17 07:58:30 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 07:59:57 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 08:05:36 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 08:31:21 --> 404 Page Not Found: Profile/jambobee-limited
+ERROR - 2023-02-17 08:45:33 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 09:11:00 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 09:14:53 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 09:23:04 --> 404 Page Not Found: Jambobee_26022022zip/index
+ERROR - 2023-02-17 09:25:22 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 09:32:07 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 09:38:45 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 09:52:25 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 09:53:11 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 09:53:51 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 10:00:26 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 10:00:57 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 10:00:58 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 10:18:42 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 10:23:47 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 10:30:16 --> 404 Page Not Found: Profile/john-paul
+ERROR - 2023-02-17 10:37:34 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 10:40:06 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 10:40:08 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 10:40:10 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 10:40:11 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 10:40:12 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 10:40:13 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 10:40:14 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 10:40:15 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 10:40:59 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 10:50:00 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 10:50:40 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 10:50:40 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 10:50:53 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 10:52:18 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 10:52:41 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 10:56:30 --> 404 Page Not Found: Jambobee_25022022zip/index
+ERROR - 2023-02-17 10:59:54 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 11:05:39 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 11:09:58 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 11:09:58 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 11:10:02 --> 404 Page Not Found: Register/index
+ERROR - 2023-02-17 11:10:42 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 11:13:33 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 11:24:31 --> 404 Page Not Found: Jobs/index
+ERROR - 2023-02-17 11:25:49 --> 404 Page Not Found: Job/keep-it-up
+ERROR - 2023-02-17 11:28:28 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 11:28:28 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 11:28:38 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 11:35:47 --> 404 Page Not Found: api/Language_list/index
+ERROR - 2023-02-17 11:36:53 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 11:41:15 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 11:41:15 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 11:42:19 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 11:42:27 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 11:43:32 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 11:46:40 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 11:47:28 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 11:48:56 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 11:48:57 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 11:53:43 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 11:54:19 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 11:55:44 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 11:55:56 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7476
+ERROR - 2023-02-17 12:00:58 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 12:09:48 --> 404 Page Not Found: Job/weka-something
+ERROR - 2023-02-17 12:12:42 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 12:12:44 --> 404 Page Not Found: Job/two-examples-two-view
+ERROR - 2023-02-17 12:21:07 --> 404 Page Not Found: Profile/joel-1
+ERROR - 2023-02-17 12:24:04 --> 404 Page Not Found: Jobs/index
+ERROR - 2023-02-17 12:25:29 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7507
+ERROR - 2023-02-17 12:32:09 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 12:38:44 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7507
+ERROR - 2023-02-17 12:42:18 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 12:43:07 --> Severity: error --> Exception: Cannot access offset of type string on string /home/pencilfive/public_html/application/controllers/api/Api.php 7507
+ERROR - 2023-02-17 12:48:46 --> 404 Page Not Found: Pi/api
+ERROR - 2023-02-17 12:48:47 --> 404 Page Not Found: I/api
+ERROR - 2023-02-17 12:48:47 --> 404 Page Not Found: api/Language/index
+ERROR - 2023-02-17 12:48:48 --> 404 Page Not Found: api/Language/index
+ERROR - 2023-02-17 12:48:48 --> 404 Page Not Found: api/Language/index
+ERROR - 2023-02-17 13:20:14 --> 404 Page Not Found: Profile/james-faden-1
+ERROR - 2023-02-17 13:25:32 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 13:30:08 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 13:34:26 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 13:35:34 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 13:37:57 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 13:38:00 --> 404 Page Not Found: Profile/h%C3%BCsn%C3%BC-comak
+ERROR - 2023-02-17 13:38:03 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 13:38:10 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 13:38:19 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 13:38:27 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 13:38:35 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 13:38:46 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 13:38:54 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 13:39:04 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 13:39:11 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 13:39:24 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 13:39:37 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 13:39:52 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 13:40:05 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 13:40:09 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 13:40:15 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 13:40:21 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 13:46:09 --> 404 Page Not Found: api/Language/index
+ERROR - 2023-02-17 13:47:28 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 13:47:29 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 13:50:26 --> 404 Page Not Found: api/Language/index
+ERROR - 2023-02-17 14:04:16 --> 404 Page Not Found: Register/index
+ERROR - 2023-02-17 14:08:10 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 14:08:23 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 14:15:09 --> 404 Page Not Found: Profile/dazzle
+ERROR - 2023-02-17 14:18:53 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 14:26:53 --> 404 Page Not Found: Job/twende-kwetu
+ERROR - 2023-02-17 14:35:30 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 14:47:02 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 15:10:47 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 15:18:06 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 15:21:25 --> Severity: error --> Exception: Division by zero /home/pencilfive/public_html/application/helpers/currency_helper.php 419
+ERROR - 2023-02-17 15:24:38 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 15:37:47 --> 404 Page Not Found: Profile/bravin
+ERROR - 2023-02-17 15:38:12 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 15:38:13 --> 404 Page Not Found: Password/apple-touch-icon.png
+ERROR - 2023-02-17 15:44:59 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 16:17:22 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 16:17:22 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 16:23:46 --> 404 Page Not Found: Page/privacy-policy
+ERROR - 2023-02-17 16:30:45 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 16:30:45 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 16:43:55 --> 404 Page Not Found: Wp-loginphp/index
+ERROR - 2023-02-17 16:50:50 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 16:55:20 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 16:55:20 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 16:57:16 --> Severity: error --> Exception: fwrite(): Argument #1 ($stream) must be of type resource, bool given /home/pencilfive/public_html/application/helpers/push_notifications_helper.php 80
+ERROR - 2023-02-17 17:00:33 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 17:07:15 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 17:12:48 --> Severity: error --> Exception: fwrite(): Argument #1 ($stream) must be of type resource, bool given /home/pencilfive/public_html/application/helpers/push_notifications_helper.php 80
+ERROR - 2023-02-17 17:14:13 --> Severity: error --> Exception: fwrite(): Argument #1 ($stream) must be of type resource, bool given /home/pencilfive/public_html/application/helpers/push_notifications_helper.php 80
+ERROR - 2023-02-17 17:21:09 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 17:21:09 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 17:23:41 --> Severity: error --> Exception: fwrite(): Argument #1 ($stream) must be of type resource, bool given /home/pencilfive/public_html/application/helpers/push_notifications_helper.php 80
+ERROR - 2023-02-17 17:28:16 --> Severity: error --> Exception: fwrite(): Argument #1 ($stream) must be of type resource, bool given /home/pencilfive/public_html/application/helpers/push_notifications_helper.php 80
+ERROR - 2023-02-17 17:30:49 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 17:39:23 --> 404 Page Not Found: Page/terms-conditions
+ERROR - 2023-02-17 17:39:28 --> 404 Page Not Found: Service/i-can-repair-any-phone
+ERROR - 2023-02-17 17:46:55 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 17:54:13 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 17:59:25 --> Severity: error --> Exception: fwrite(): Argument #1 ($stream) must be of type resource, bool given /home/pencilfive/public_html/application/helpers/push_notifications_helper.php 80
+ERROR - 2023-02-17 18:00:43 --> 404 Page Not Found: Profile/john-ron
+ERROR - 2023-02-17 18:06:23 --> 404 Page Not Found: Adstxt/index
+ERROR - 2023-02-17 18:10:38 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 18:16:16 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 18:16:17 --> 404 Page Not Found: Profile/h%C3%BCsn%C3%BC-comak
+ERROR - 2023-02-17 18:17:48 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:17:48 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:17:49 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:17:50 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:17:51 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:17:51 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:17:51 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:17:51 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:17:52 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:17:52 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:18:00 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 18:19:02 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:19:06 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:19:06 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:19:09 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:19:09 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:19:13 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:19:17 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:19:18 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:19:20 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:25:09 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:25:10 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:25:10 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:25:11 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:25:11 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:25:12 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:25:13 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:25:13 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:25:14 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:25:15 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:27:35 --> Severity: error --> Exception: fwrite(): Argument #1 ($stream) must be of type resource, bool given /home/pencilfive/public_html/application/helpers/push_notifications_helper.php 80
+ERROR - 2023-02-17 18:33:56 --> 404 Page Not Found: Jobs/index
+ERROR - 2023-02-17 18:35:33 --> Severity: error --> Exception: fwrite(): Argument #1 ($stream) must be of type resource, bool given /home/pencilfive/public_html/application/helpers/push_notifications_helper.php 80
+ERROR - 2023-02-17 18:36:24 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:36:24 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:36:25 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:36:25 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:36:26 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:36:26 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:36:27 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:36:28 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:36:28 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:36:28 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:36:42 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:36:42 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:36:43 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:36:43 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:36:44 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:36:44 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:36:44 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:36:45 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:36:45 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:36:46 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:37:07 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:37:07 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:37:08 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:37:08 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:37:08 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:37:08 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:37:09 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:37:09 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:37:09 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:37:10 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:37:32 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:37:32 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:37:33 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:37:33 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:37:33 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:37:33 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:37:34 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:37:34 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:37:35 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:37:35 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:38:10 --> Severity: error --> Exception: fwrite(): Argument #1 ($stream) must be of type resource, bool given /home/pencilfive/public_html/application/helpers/push_notifications_helper.php 80
+ERROR - 2023-02-17 18:40:35 --> 404 Page Not Found: Page/privacy-policy
+ERROR - 2023-02-17 18:45:52 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:45:52 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:45:53 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:45:53 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:45:54 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:45:55 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:45:56 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:45:56 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:45:57 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:45:58 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:53:54 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:53:54 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:53:55 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:53:55 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:53:56 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:53:56 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:53:57 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:53:57 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:53:57 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:53:58 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:57:33 --> Severity: error --> Exception: fwrite(): Argument #1 ($stream) must be of type resource, bool given /home/pencilfive/public_html/application/helpers/push_notifications_helper.php 80
+ERROR - 2023-02-17 18:58:20 --> 404 Page Not Found: Profile/elijah-johnson
+ERROR - 2023-02-17 18:59:05 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:59:06 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:59:07 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:59:08 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:59:08 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:59:09 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:59:09 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:59:10 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:59:11 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:59:11 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:59:21 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:59:21 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:59:22 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:59:22 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 18:59:23 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:59:23 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:59:23 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:59:23 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:59:24 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 18:59:25 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 19:02:10 --> Severity: error --> Exception: fwrite(): Argument #1 ($stream) must be of type resource, bool given /home/pencilfive/public_html/application/helpers/push_notifications_helper.php 80
+ERROR - 2023-02-17 19:02:25 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 19:02:25 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 19:02:26 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 19:02:26 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 19:02:27 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 19:02:27 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 19:02:27 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 19:02:27 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 19:02:28 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 19:02:28 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 19:06:50 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 19:07:57 --> Severity: error --> Exception: fwrite(): Argument #1 ($stream) must be of type resource, bool given /home/pencilfive/public_html/application/helpers/push_notifications_helper.php 80
+ERROR - 2023-02-17 19:08:20 --> Severity: error --> Exception: fwrite(): Argument #1 ($stream) must be of type resource, bool given /home/pencilfive/public_html/application/helpers/push_notifications_helper.php 80
+ERROR - 2023-02-17 19:08:23 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 19:08:23 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 19:08:24 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 19:08:24 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 19:08:25 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 19:08:25 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 19:08:26 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 19:08:26 --> 404 Page Not Found: Uploads/shops
+ERROR - 2023-02-17 19:08:26 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 19:08:27 --> 404 Page Not Found: Uploads/services
+ERROR - 2023-02-17 19:10:10 --> 404 Page Not Found: Job/design-a-website
+ERROR - 2023-02-17 19:19:11 --> 404 Page Not Found: Service/we-can-make-covid-vaccine
+ERROR - 2023-02-17 19:21:59 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 19:22:02 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:05 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:08 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:11 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:14 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:17 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:20 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:23 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:24 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:26 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:27 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:29 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:30 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:32 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:35 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:37 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:38 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:41 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:43 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:44 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:48 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:49 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:50 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:53 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:55 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:56 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:22:57 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 19:22:59 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:00 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:02 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:03 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:05 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:06 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:07 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:09 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:10 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:12 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:13 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:15 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:16 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:18 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:19 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:21 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:22 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:24 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:25 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:27 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:28 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:30 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:31 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:33 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:34 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:35 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:37 --> 404 Page Not Found: Jobs/index
+ERROR - 2023-02-17 19:23:39 --> 404 Page Not Found: Jobs/index
+ERROR - 2023-02-17 19:23:40 --> 404 Page Not Found: Jobs/index
+ERROR - 2023-02-17 19:23:42 --> 404 Page Not Found: Jobs/index
+ERROR - 2023-02-17 19:23:43 --> 404 Page Not Found: Jobs/index
+ERROR - 2023-02-17 19:23:45 --> 404 Page Not Found: Jobs/index
+ERROR - 2023-02-17 19:23:46 --> 404 Page Not Found: Jobs/index
+ERROR - 2023-02-17 19:23:48 --> 404 Page Not Found: Jobs/index
+ERROR - 2023-02-17 19:23:49 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:51 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:52 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:54 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:55 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:57 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:23:58 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:24:00 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:24:01 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:24:03 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:24:04 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:24:06 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:24:07 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:24:08 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:24:10 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:24:11 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:24:13 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:24:14 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:24:16 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:24:17 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:24:19 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:24:20 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:24:22 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:24:23 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 19:55:23 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 19:55:23 --> 404 Page Not Found: Humanstxt/index
+ERROR - 2023-02-17 19:55:23 --> 404 Page Not Found: Adstxt/index
+ERROR - 2023-02-17 19:57:20 --> Severity: error --> Exception: Division by zero /home/pencilfive/public_html/application/helpers/currency_helper.php 419
+ERROR - 2023-02-17 20:09:12 --> 404 Page Not Found: Faviconico/index
+ERROR - 2023-02-17 20:09:16 --> 404 Page Not Found: Job/need-an-electrician-for-socket
+ERROR - 2023-02-17 20:17:50 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 20:27:55 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 20:27:55 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 20:37:16 --> 404 Page Not Found: Job/digital-marketing-of-a-furniture-store
+ERROR - 2023-02-17 20:39:18 --> 404 Page Not Found: Business/profile
+ERROR - 2023-02-17 20:39:45 --> 404 Page Not Found: Usersearch/byevent
+ERROR - 2023-02-17 20:39:52 --> 404 Page Not Found: Usersearch/byevent
+ERROR - 2023-02-17 20:39:57 --> 404 Page Not Found: Usersearch/byevent
+ERROR - 2023-02-17 20:40:03 --> 404 Page Not Found: Usersearch/byevent
+ERROR - 2023-02-17 20:40:07 --> 404 Page Not Found: Usersearch/byevent
+ERROR - 2023-02-17 20:40:10 --> 404 Page Not Found: Usersearch/byevent
+ERROR - 2023-02-17 20:40:14 --> 404 Page Not Found: Usersearch/byevent
+ERROR - 2023-02-17 20:40:17 --> 404 Page Not Found: Usersearch/byevent
+ERROR - 2023-02-17 20:40:19 --> 404 Page Not Found: Usersearch/byevent
+ERROR - 2023-02-17 20:40:21 --> 404 Page Not Found: Usersearch/byevent
+ERROR - 2023-02-17 20:40:23 --> 404 Page Not Found: Usersearch/byevent
+ERROR - 2023-02-17 20:42:43 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 20:42:59 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 20:43:19 --> 404 Page Not Found: Usersearch/byevent
+ERROR - 2023-02-17 20:56:17 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 20:56:18 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 20:56:20 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 21:18:53 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 21:18:53 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 21:31:26 --> 404 Page Not Found: Social/redirect
+ERROR - 2023-02-17 21:33:52 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 21:35:25 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 21:35:47 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 21:46:11 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 21:58:38 --> 404 Page Not Found: Job/bread-eating-competition
+ERROR - 2023-02-17 21:59:56 --> 404 Page Not Found: Javascript:/index
+ERROR - 2023-02-17 21:59:57 --> 404 Page Not Found: Products/javascript:
+ERROR - 2023-02-17 21:59:59 --> 404 Page Not Found: About-us/javascript:
+ERROR - 2023-02-17 22:03:40 --> 404 Page Not Found: Get/jobs
+ERROR - 2023-02-17 22:05:05 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 22:05:41 --> 404 Page Not Found: Wp-admin/css
+ERROR - 2023-02-17 22:05:47 --> 404 Page Not Found: Well-known/index
+ERROR - 2023-02-17 22:05:50 --> 404 Page Not Found: Sites/default
+ERROR - 2023-02-17 22:05:54 --> 404 Page Not Found: admin/Controller/extension
+ERROR - 2023-02-17 22:05:57 --> 404 Page Not Found: Uploads/index
+ERROR - 2023-02-17 22:05:58 --> 404 Page Not Found: Images/index
+ERROR - 2023-02-17 22:05:58 --> 404 Page Not Found: Files/index
+ERROR - 2023-02-17 22:07:40 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 22:07:40 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 22:17:55 --> 404 Page Not Found: Job/back-to-school-shaving
+ERROR - 2023-02-17 22:19:23 --> 404 Page Not Found: Profile/john-paul
+ERROR - 2023-02-17 22:19:30 --> 404 Page Not Found: Service/we-can-develop-any-website
+ERROR - 2023-02-17 22:19:50 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 22:19:52 --> 404 Page Not Found: Profile/shreyas-malhotra
+ERROR - 2023-02-17 22:20:19 --> 404 Page Not Found: Business/profile
+ERROR - 2023-02-17 22:20:50 --> 404 Page Not Found: Usersearch/byevent
+ERROR - 2023-02-17 22:22:06 --> 404 Page Not Found: Profile/john-ron
+ERROR - 2023-02-17 22:24:08 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 22:37:33 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 23:13:59 --> 404 Page Not Found: Register/index
+ERROR - 2023-02-17 23:16:18 --> 404 Page Not Found: Profile/cooper-white
+ERROR - 2023-02-17 23:28:10 --> 404 Page Not Found: Password/reset
+ERROR - 2023-02-17 23:29:00 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 23:36:28 --> 404 Page Not Found: Profile/john-ron-1
+ERROR - 2023-02-17 23:39:53 --> 404 Page Not Found: Jobs/index
+ERROR - 2023-02-17 23:45:44 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 23:45:44 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-02-17 23:56:10 --> 404 Page Not Found: Search-results/index
+ERROR - 2023-02-17 23:57:36 --> 404 Page Not Found: Job/website-for-resturant
