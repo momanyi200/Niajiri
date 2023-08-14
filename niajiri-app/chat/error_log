@@ -1,0 +1,105 @@
+[27-Apr-2023 14:22:03 Asia/Kolkata] PHP Fatal error:  Uncaught InvalidArgumentException: Given URI "tcp://niajiri.biz:7070" does not contain a valid host IP in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php:154
+Stack trace:
+#0 /home/pencilfive/public_html/chat/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct()
+#1 /home/pencilfive/public_html/chat/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct()
+#2 /home/pencilfive/public_html/chat/server.php(22): Ratchet\Server\IoServer::factory()
+#3 {main}
+  thrown in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php on line 154
+[27-Apr-2023 14:29:41 Asia/Kolkata] PHP Fatal error:  Uncaught InvalidArgumentException: Given URI "tcp://niajiri.biz:7070" does not contain a valid host IP in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php:154
+Stack trace:
+#0 /home/pencilfive/public_html/chat/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct()
+#1 /home/pencilfive/public_html/chat/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct()
+#2 /home/pencilfive/public_html/chat/server.php(22): Ratchet\Server\IoServer::factory()
+#3 {main}
+  thrown in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php on line 154
+[27-Apr-2023 14:29:44 Asia/Kolkata] PHP Fatal error:  Uncaught InvalidArgumentException: Given URI "tcp://niajiri.biz:7070" does not contain a valid host IP in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php:154
+Stack trace:
+#0 /home/pencilfive/public_html/chat/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct()
+#1 /home/pencilfive/public_html/chat/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct()
+#2 /home/pencilfive/public_html/chat/server.php(22): Ratchet\Server\IoServer::factory()
+#3 {main}
+  thrown in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php on line 154
+[27-Apr-2023 14:29:46 Asia/Kolkata] PHP Fatal error:  Uncaught InvalidArgumentException: Given URI "tcp://niajiri.biz:7070" does not contain a valid host IP in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php:154
+Stack trace:
+#0 /home/pencilfive/public_html/chat/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct()
+#1 /home/pencilfive/public_html/chat/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct()
+#2 /home/pencilfive/public_html/chat/server.php(22): Ratchet\Server\IoServer::factory()
+#3 {main}
+  thrown in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php on line 154
+[27-Apr-2023 14:38:24 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Failed to listen on "tcp://160.153.129.221:7070": Address already in use in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php:165
+Stack trace:
+#0 /home/pencilfive/public_html/chat/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct()
+#1 /home/pencilfive/public_html/chat/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct()
+#2 /home/pencilfive/public_html/chat/server.php(22): Ratchet\Server\IoServer::factory()
+#3 {main}
+  thrown in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php on line 165
+[27-Apr-2023 14:38:28 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Failed to listen on "tcp://160.153.129.221:7070": Address already in use in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php:165
+Stack trace:
+#0 /home/pencilfive/public_html/chat/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct()
+#1 /home/pencilfive/public_html/chat/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct()
+#2 /home/pencilfive/public_html/chat/server.php(22): Ratchet\Server\IoServer::factory()
+#3 {main}
+  thrown in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php on line 165
+[27-Apr-2023 14:38:30 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Failed to listen on "tcp://160.153.129.221:7070": Address already in use in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php:165
+Stack trace:
+#0 /home/pencilfive/public_html/chat/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct()
+#1 /home/pencilfive/public_html/chat/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct()
+#2 /home/pencilfive/public_html/chat/server.php(22): Ratchet\Server\IoServer::factory()
+#3 {main}
+  thrown in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php on line 165
+[27-Apr-2023 14:38:53 Asia/Kolkata] PHP Fatal error:  Uncaught InvalidArgumentException: Given URI "tcp://niajiri.biz:7070" does not contain a valid host IP in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php:154
+Stack trace:
+#0 /home/pencilfive/public_html/chat/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct()
+#1 /home/pencilfive/public_html/chat/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct()
+#2 /home/pencilfive/public_html/chat/server.php(22): Ratchet\Server\IoServer::factory()
+#3 {main}
+  thrown in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php on line 154
+[27-Apr-2023 14:38:55 Asia/Kolkata] PHP Fatal error:  Uncaught InvalidArgumentException: Given URI "tcp://niajiri.biz:7070" does not contain a valid host IP in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php:154
+Stack trace:
+#0 /home/pencilfive/public_html/chat/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct()
+#1 /home/pencilfive/public_html/chat/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct()
+#2 /home/pencilfive/public_html/chat/server.php(22): Ratchet\Server\IoServer::factory()
+#3 {main}
+  thrown in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php on line 154
+[27-Apr-2023 14:38:57 Asia/Kolkata] PHP Fatal error:  Uncaught InvalidArgumentException: Given URI "tcp://niajiri.biz:7070" does not contain a valid host IP in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php:154
+Stack trace:
+#0 /home/pencilfive/public_html/chat/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct()
+#1 /home/pencilfive/public_html/chat/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct()
+#2 /home/pencilfive/public_html/chat/server.php(22): Ratchet\Server\IoServer::factory()
+#3 {main}
+  thrown in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php on line 154
+[27-Apr-2023 14:40:14 Asia/Kolkata] PHP Fatal error:  Uncaught InvalidArgumentException: Given URI "tcp://niajiri.biz:7070" does not contain a valid host IP in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php:154
+Stack trace:
+#0 /home/pencilfive/public_html/chat/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct()
+#1 /home/pencilfive/public_html/chat/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct()
+#2 /home/pencilfive/public_html/chat/server.php(22): Ratchet\Server\IoServer::factory()
+#3 {main}
+  thrown in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php on line 154
+[27-Apr-2023 14:44:14 Asia/Kolkata] PHP Fatal error:  Uncaught InvalidArgumentException: Given URI "tcp://niajiri.biz:7070" does not contain a valid host IP in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php:154
+Stack trace:
+#0 /home/pencilfive/public_html/chat/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct()
+#1 /home/pencilfive/public_html/chat/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct()
+#2 /home/pencilfive/public_html/chat/server.php(22): Ratchet\Server\IoServer::factory()
+#3 {main}
+  thrown in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php on line 154
+[27-Apr-2023 14:44:59 Asia/Kolkata] PHP Fatal error:  Uncaught InvalidArgumentException: Given URI "tcp://niajiri.biz:7070" does not contain a valid host IP in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php:154
+Stack trace:
+#0 /home/pencilfive/public_html/chat/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct()
+#1 /home/pencilfive/public_html/chat/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct()
+#2 /home/pencilfive/public_html/chat/server.php(22): Ratchet\Server\IoServer::factory()
+#3 {main}
+  thrown in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php on line 154
+[27-Apr-2023 14:47:49 Asia/Kolkata] PHP Fatal error:  Uncaught InvalidArgumentException: Given URI "tcp://niajiri.biz:7070" does not contain a valid host IP in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php:154
+Stack trace:
+#0 /home/pencilfive/public_html/chat/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct()
+#1 /home/pencilfive/public_html/chat/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct()
+#2 /home/pencilfive/public_html/chat/server.php(22): Ratchet\Server\IoServer::factory()
+#3 {main}
+  thrown in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php on line 154
+[27-Apr-2023 15:45:52 Asia/Kolkata] PHP Fatal error:  Uncaught InvalidArgumentException: Given URI "tcp://niajiri.biz:7070" does not contain a valid host IP in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php:154
+Stack trace:
+#0 /home/pencilfive/public_html/chat/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct()
+#1 /home/pencilfive/public_html/chat/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct()
+#2 /home/pencilfive/public_html/chat/server.php(22): Ratchet\Server\IoServer::factory()
+#3 {main}
+  thrown in /home/pencilfive/public_html/chat/vendor/react/socket/src/TcpServer.php on line 154
