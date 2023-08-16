@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------
@@ -75,13 +75,13 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-   'dsn'   => '',
-   'hostname' => 'niajiridb.ckmq3ju5pa7q.us-east-2.rds.amazonaws.com',
-   'username' => 'dbniajiri',
-   'password' => 'NiajiriDB@2123',
+   'dsn' => '',
+   'hostname' => 'localhost',
+   'username' => 'root',
+   'password' => '',
    'database' => 'dbniajiri',
    'dbdriver' => 'mysqli',
-   'port' => '',
+   'port' => '3306',
    'dbprefix' => '',
    'pconnect' => FALSE,
    'db_debug' => FALSE,
@@ -90,15 +90,45 @@ $db['default'] = array(
    'char_set' => 'utf8',
    'dbcollat' => 'utf8_general_ci',
    'swap_pre' => '',
-   'encrypt'  => FALSE,
+   'encrypt' => FALSE,
    'compress' => FALSE,
    'stricton' => FALSE,
    'failover' => array(),
    'save_queries' => TRUE,
-   'WS'       =>  'wss',
-   'CRT_PATH'              =>  '/etc/apache2/ssl/16fba81b6f8ac3ac.crt',
-   'KEY_PATH'              =>  '/etc/apache2/ssl/niajiri.biz.key',
-   'CA_PATH'               =>  '/etc/apache2/ssl/gd_bundle-g2-g1.crt',
-   'IF_SSL'                =>  'false',
-   'DBENVIRONMENT'                =>  'local'
-);  
+   'WS' => 'wss',
+   'CRT_PATH' => '/etc/apache2/ssl/16fba81b6f8ac3ac.crt',
+   'KEY_PATH' => '/etc/apache2/ssl/niajiri.biz.key',
+   'CA_PATH' => '/etc/apache2/ssl/gd_bundle-g2-g1.crt',
+   'IF_SSL' => 'false',
+   'DBENVIRONMENT' => 'local'
+);
+
+
+// $db['default'] = array(
+//    'dsn'   => '',
+//    'hostname' => 'niajiridb.ckmq3ju5pa7q.us-east-2.rds.amazonaws.com',
+//    'username' => 'dbniajiri',
+//    'password' => 'NiajiriDB@2123',
+//    'database' => 'dbniajiri',
+//    'dbdriver' => 'mysqli',
+//    'port' => '',
+//    'dbprefix' => '',
+//    'pconnect' => FALSE,
+//    'db_debug' => FALSE,
+//    'cache_on' => FALSE,
+//    'cachedir' => '',
+//    'char_set' => 'utf8',
+//    'dbcollat' => 'utf8_general_ci',
+//    'swap_pre' => '',
+//    'encrypt'  => FALSE,
+//    'compress' => FALSE,
+//    'stricton' => FALSE,
+//    'failover' => array(),
+//    'save_queries' => TRUE,
+//    'WS'       =>  'wss',
+//    'CRT_PATH'              =>  '/etc/apache2/ssl/16fba81b6f8ac3ac.crt',
+//    'KEY_PATH'              =>  '/etc/apache2/ssl/niajiri.biz.key',
+//    'CA_PATH'               =>  '/etc/apache2/ssl/gd_bundle-g2-g1.crt',
+//    'IF_SSL'                =>  'false',
+//    'DBENVIRONMENT'                =>  'local'
+// );  
