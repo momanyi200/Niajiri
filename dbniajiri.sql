@@ -55,7 +55,7 @@ CREATE TABLE `additional_services` (
   `status` int NOT NULL DEFAULT '1' COMMENT '0-delete,1-active,2-inactive',
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `additional_services`
@@ -365,7 +365,7 @@ CREATE TABLE `admin_commission` (
   `status` enum('1','0') NOT NULL DEFAULT '1',
   `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `admin_commission`
@@ -1372,7 +1372,7 @@ CREATE TABLE `book_service_cod` (
   `status` int NOT NULL COMMENT '0->unpaid,1->paid',
   `amount_to_pay` float NOT NULL DEFAULT '0',
   `created_on` date NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `book_service_cod`
@@ -1416,7 +1416,7 @@ CREATE TABLE `book_staff_service` (
   `created_at` datetime NOT NULL,
   `created_by` int NOT NULL,
   `updated_on` datetime DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -1448,7 +1448,7 @@ CREATE TABLE `branch` (
   `created_by` int NOT NULL,
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -1465,7 +1465,7 @@ CREATE TABLE `branch_images` (
   `mobile_image` text NOT NULL,
   `status` int NOT NULL DEFAULT '1' COMMENT '0-delete,1-active,2-inactive',
   `is_url` int NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -1486,7 +1486,7 @@ CREATE TABLE `branch_services_list` (
   `duration_in` varchar(20) NOT NULL,
   `remarks` text NOT NULL,
   `delete_status` int NOT NULL DEFAULT '0' COMMENT '1-delete,0-not delete'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -1525,7 +1525,7 @@ CREATE TABLE `callback_return_response` (
   `id` int NOT NULL,
   `response` longtext NOT NULL,
   `created_at` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -49386,7 +49386,7 @@ INSERT INTO `city` (`id`, `name`, `state_id`) VALUES
 (47688, 'Nandi Hills', 4141),
 (47689, 'Chesumei', 4141),
 (47690, 'Eldoret', 4139),
-(47691, 'Mois Bridge', 4139),
+(47691, 'Moi\'s Bridge', 4139),
 (47692, 'Matunda', 4139),
 (47693, 'Burnt Forest', 4139),
 (47694, 'Jua Kali', 4139),
@@ -49598,7 +49598,7 @@ INSERT INTO `countries` (`id`, `country_name`, `dial_code`, `code`, `created_dat
 (49, 'Congo, The Democratic Republic of the', 243, 'CD', '2021-09-24 11:32:20', 1),
 (50, 'Cook Islands', 682, 'CK', '2021-09-24 11:32:20', 1),
 (51, 'Costa Rica', 506, 'CR', '2021-09-24 11:32:20', 1),
-(52, 'Cote d\Ivoire', 225, 'CI', '2021-09-24 11:32:20', 1),
+(52, 'Cote d\'Ivoire', 225, 'CI', '2021-09-24 11:32:20', 1),
 (53, 'Croatia', 385, 'HR', '2021-09-24 11:32:20', 1),
 (54, 'Cuba', 53, 'CU', '2021-09-24 11:32:20', 1),
 (55, 'Cyprus', 357, 'CY', '2021-09-24 11:32:20', 1),
@@ -49658,11 +49658,11 @@ INSERT INTO `countries` (`id`, `country_name`, `dial_code`, `code`, `created_dat
 (109, 'Kazakhstan', 7, 'KZ', '2021-09-24 11:32:28', 1),
 (110, 'Kenya', 254, 'KE', '2021-09-24 11:32:28', 1),
 (111, 'Kiribati', 686, 'KI', '2021-09-24 11:32:29', 1),
-(112, 'Korea, Democratic Peoples Republic of', 850, 'KP', '2021-09-24 11:32:29', 1),
+(112, 'Korea, Democratic People\'s Republic of', 850, 'KP', '2021-09-24 11:32:29', 1),
 (113, 'Korea, Republic of', 82, 'KR', '2021-09-24 11:32:29', 1),
 (114, 'Kuwait', 965, 'KW', '2021-09-24 11:32:29', 1),
 (115, 'Kyrgyzstan', 996, 'KG', '2021-09-24 11:32:29', 1),
-(116, 'Lao Peoples Democratic Republic', 856, 'LA', '2021-09-24 11:32:29', 1),
+(116, 'Lao People\'s Democratic Republic', 856, 'LA', '2021-09-24 11:32:29', 1),
 (117, 'Latvia', 371, 'LV', '2021-09-24 11:32:30', 1),
 (118, 'Lebanon', 961, 'LB', '2021-09-24 11:32:30', 1),
 (119, 'Lesotho', 266, 'LS', '2021-09-24 11:32:31', 1),
@@ -50358,7 +50358,7 @@ CREATE TABLE `deposit_details` (
   `deposit_status` tinyint(1) NOT NULL COMMENT '1-Inprogress, 2-Completed',
   `created_at` datetime NOT NULL,
   `deposit_completed_at` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `deposit_details`
@@ -50479,7 +50479,7 @@ CREATE TABLE `employee_basic_details` (
   `last_login` datetime NOT NULL,
   `last_logout` datetime DEFAULT NULL,
   `is_online` int DEFAULT '2'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `employee_basic_details`
@@ -50515,7 +50515,7 @@ CREATE TABLE `employee_services_list` (
   `duration_in` varchar(20) NOT NULL DEFAULT 'min(s)',
   `remarks` text NOT NULL,
   `delete_status` int NOT NULL DEFAULT '0' COMMENT '1-delete,0-not delete'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -50530,7 +50530,7 @@ CREATE TABLE `faq` (
   `status` int NOT NULL DEFAULT '1',
   `created_datetime` datetime NOT NULL,
   `updated_datetime` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `faq`
@@ -50659,7 +50659,7 @@ CREATE TABLE `header_settings` (
   `reset_menu` text,
   `created_datetime` datetime DEFAULT NULL,
   `updated_datetime` datetime DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `header_settings`
@@ -50734,7 +50734,7 @@ INSERT INTO `language_management` (`sno`, `lang_key`, `lang_value`, `language`, 
 (30, 'lg_reason', 'Reason', 'en', 'web'),
 (31, 'lg_no_record_fou', 'No records found', 'en', 'web'),
 (32, 'lg_marget_place', 'Marketplace', 'en', 'web'),
-(33, 'lg_world_largest', 'Worlds Largest', 'en', 'web'),
+(33, 'lg_world_largest', 'World\'s Largest', 'en', 'web'),
 (34, 'lg_search_from', 'Search From', 'en', 'web'),
 (35, 'lg_awesome_verified', 'Awesome Verified Ads!', 'en', 'web'),
 (36, 'lg_search', 'Search', 'en', 'web'),
@@ -50855,7 +50855,7 @@ INSERT INTO `language_management` (`sno`, `lang_key`, `lang_value`, `language`, 
 (151, 'lg_Verification_account', 'Verification your account', 'en', 'web'),
 (152, 'lg_We Have_OTP', 'We Have Send SMS Via OTP', 'en', 'web'),
 (153, 'lg_Please_Check_Your_Registered_Mobile', 'Please Check Your Registered Mobile Number', 'en', 'web'),
-(154, 'lg_Didnt_receive_the_OTP', 'Didnt receive the OTP?', 'en', 'web'),
+(154, 'lg_Didnt_receive_the_OTP', 'Didn\'t receive the OTP?', 'en', 'web'),
 (155, 'lg_Resend_OTP', 'Resend OTP', 'en', 'web'),
 (156, 'lg_Finish', 'Finish', 'en', 'web'),
 (157, 'lg_Resend', 'Resend', 'en', 'web'),
@@ -51088,7 +51088,7 @@ INSERT INTO `language_management` (`sno`, `lang_key`, `lang_value`, `language`, 
 (1542, 'have_you_got_covid_vaccine', 'Have you got COVID-19 vaccine?', 'en', 'web'),
 (1546, 'yes_one_injection', 'Yes, one injection', 'en', 'web'),
 (1550, 'yes_two_injection', 'Yes, two injection', 'en', 'web'),
-(1554, 'no_im_under_18', 'No, Im under 18', 'en', 'web'),
+(1554, 'no_im_under_18', 'No, I\'m under 18', 'en', 'web'),
 (1558, 'you_will_be_responsible', 'you will be full responsible for that answer', 'en', 'web'),
 (1562, 'update_status', 'Update Status', 'en', 'web'),
 (1566, 'lg_offer', 'Offer', 'en', 'web'),
@@ -51256,7 +51256,7 @@ CREATE TABLE `mas_increment` (
   `auto_value` varchar(8) NOT NULL,
   `updated_on` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `created_on` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `mas_increment`
@@ -51458,7 +51458,7 @@ CREATE TABLE `moyasar_table` (
   `updated_on` datetime DEFAULT NULL,
   `status` int NOT NULL DEFAULT '1' COMMENT '1-active,2-inactive,0-delete',
   `paytype` varchar(250) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `moyasar_table`
@@ -51488,7 +51488,7 @@ CREATE TABLE `moyaser_payment_gateway` (
   `api_secret` text NOT NULL,
   `status` int NOT NULL COMMENT '0->inactive, 1-active',
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -51513,7 +51513,7 @@ CREATE TABLE `mpesa_payment_gateway` (
   `c2b_validationUrl` varchar(255) NOT NULL,
   `c2b_transactionUrl` varchar(255) NOT NULL,
   `status` int NOT NULL DEFAULT '1' COMMENT '(0 Inactive, 1 Active)	'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `mpesa_payment_gateway`
@@ -51547,7 +51547,7 @@ CREATE TABLE `mpesa_payment_gateway_old` (
   `c2b_validationUrl` varchar(255) NOT NULL,
   `c2b_transactionUrl` varchar(255) NOT NULL,
   `status` int NOT NULL DEFAULT '1' COMMENT '(0 Inactive, 1 Active)	'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `mpesa_payment_gateway_old`
@@ -51645,11 +51645,11 @@ INSERT INTO `notification_table` (`notification_id`, `sender`, `receiver`, `mess
 (551, '12bNN37X2piFUI78', '12bNN37X2piFUI78', 'Usertest your payment for service booking is pending', 1, '2023-04-27 20:36:34', '2023-04-27 15:06:34', NULL, 0),
 (552, '30w6QWVzxd6WM54W', '12bNN37X2piFUI78', 'Usertest  have completed their service', 1, '2023-04-27 20:39:44', '2023-04-27 15:09:44', NULL, 0),
 (553, '12bNN37X2piFUI78', '30w6QWVzxd6WM54W', 'Demo  has accepted the completed service', 1, '2023-04-27 20:40:01', '2023-04-27 15:10:01', NULL, 0),
-(554, '32HDsdzfaH4zRtIi', '1527jtRTJMosIlY', 'demo user has booked the service \'Provider Service\' at Provider2\'s shop \'Providor Add Shop\'' and for the amount of 5KES', 0, '2023-04-27 15:16:43', '2023-04-27 15:16:43', NULL, 0),
+(554, '32HDsdzfaH4zRtIi', '1527jtRTJMosIlY', 'demo user has booked the service \'Provider Service\' at Provider2\'s shop \'Providor Add Shop\' and for the amount of 5KES', 0, '2023-04-27 15:16:43', '2023-04-27 15:16:43', NULL, 0),
 (555, '32HDsdzfaH4zRtIi', '1527jtRTJMosIlY', 'demo user paid the amount of 5KES to Provider2 for the service \'Provider Service\'', 0, '2023-04-27 15:16:43', '2023-04-27 15:16:43', NULL, 0),
-(556, '32HDsdzfaH4zRtIi', '11tzQBNAq3j1icwP', 'demo user has booked the service \'Provider Service\' at Provider2\'s shop \'Providor Add Shop\'' and for the amount of 5KES', 0, '2023-04-27 15:16:43', '2023-04-27 15:16:43', NULL, 0),
+(556, '32HDsdzfaH4zRtIi', '11tzQBNAq3j1icwP', 'demo user has booked the service \'Provider Service\' at Provider2\'s shop \'Providor Add Shop\' and for the amount of 5KES', 0, '2023-04-27 15:16:43', '2023-04-27 15:16:43', NULL, 0),
 (557, '32HDsdzfaH4zRtIi', '11tzQBNAq3j1icwP', 'demo user paid the amount of 5KES to Provider2 for the service \'Provider Service\'', 0, '2023-04-27 15:16:43', '2023-04-27 15:16:43', NULL, 0),
-(558, '11tzQBNAq3j1icwP', '32HDsdzfaH4zRtIi', 'demo user has booked the service \'Provider Service\' at Provider2\'s shop \'Providor Add Shop\'' and for the amount of 5KES', 1, '2023-04-27 15:16:43', '2023-04-27 15:16:43', NULL, 0),
+(558, '11tzQBNAq3j1icwP', '32HDsdzfaH4zRtIi', 'demo user has booked the service \'Provider Service\' at Provider2\'s shop \'Providor Add Shop\' and for the amount of 5KES', 1, '2023-04-27 15:16:43', '2023-04-27 15:16:43', NULL, 0),
 (559, '11tzQBNAq3j1icwP', '32HDsdzfaH4zRtIi', 'demo user paid the amount of 5KES to Provider2 for the service \'Provider Service\'', 1, '2023-04-27 15:16:43', '2023-04-27 15:16:43', NULL, 0),
 (560, '30w6QWVzxd6WM54W', '30w6QWVzxd6WM54W', 'Demo success. request accepted for processing', 1, '2023-04-27 20:47:04', '2023-04-27 15:17:04', NULL, 0),
 (561, '30w6QWVzxd6WM54W', '30w6QWVzxd6WM54W', 'Demo your payment for \'adding shop\' is pending', 1, '2023-04-27 20:48:12', '2023-04-27 15:18:12', NULL, 0),
@@ -51738,7 +51738,7 @@ CREATE TABLE `offline_payment` (
   `status` int NOT NULL DEFAULT '1',
   `created_datetime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `updated_datetime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -51845,7 +51845,7 @@ CREATE TABLE `page_content` (
   `status` int NOT NULL DEFAULT '1',
   `created_datetime` datetime NOT NULL,
   `updated_datetime` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `page_content`
@@ -52019,7 +52019,7 @@ CREATE TABLE `product_cart` (
   `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `created_at` datetime NOT NULL,
   `cart_flag` tinyint(1) NOT NULL DEFAULT '0' COMMENT '0-Amt Not Deposited, 1- Amt Deposited'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `product_cart`
@@ -52097,7 +52097,7 @@ CREATE TABLE `product_images` (
   `status` int NOT NULL,
   `updated_on` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `created_on` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `product_images`
@@ -52160,7 +52160,7 @@ CREATE TABLE `product_order` (
   `Mpesa_ResponseCode` varchar(10) DEFAULT NULL,
   `Mpesa_CustomerMessage` varchar(250) DEFAULT NULL,
   `Mpesa_ResponseDescription` varchar(250) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `product_order`
@@ -52192,7 +52192,7 @@ CREATE TABLE `product_order_log` (
   `transaction_id` varchar(100) NOT NULL,
   `payment_status` varchar(250) NOT NULL,
   `created_on` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `product_order_log`
@@ -52366,7 +52366,7 @@ CREATE TABLE `product_units` (
   `status` tinyint(1) NOT NULL,
   `updated_on` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `created_on` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `product_units`
@@ -52424,7 +52424,7 @@ CREATE TABLE `providers` (
   `allow_rewards` tinyint NOT NULL DEFAULT '0' COMMENT '1-YES, 0-NO',
   `booking_reward_count` int NOT NULL DEFAULT '0',
   `commercial_verify` tinyint(1) NOT NULL DEFAULT '1' COMMENT '1->notverified,2->verified'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `providers`
@@ -52517,7 +52517,7 @@ CREATE TABLE `provider_bank_details` (
 CREATE TABLE `push_notification` (
   `id` int NOT NULL,
   `subject` varchar(100) NOT NULL,
-  `message` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `message` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `user_status` int NOT NULL,
   `provider_status` int NOT NULL,
   `status` int NOT NULL DEFAULT '1',
@@ -52562,7 +52562,7 @@ INSERT INTO `rating_review` (`id`, `user_id`, `provider_id`, `service_id`, `book
 
 CREATE TABLE `rating_type` (
   `id` int NOT NULL,
-  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `status` int NOT NULL DEFAULT '0' COMMENT '0-active,1- inactive',
   `created` datetime NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
@@ -52641,7 +52641,7 @@ CREATE TABLE `revenue` (
   `status` varchar(1) NOT NULL DEFAULT '1',
   `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -52868,7 +52868,7 @@ CREATE TABLE `service_coupons` (
   `status` tinyint(1) NOT NULL DEFAULT '1' COMMENT '0-delete,1-active,2-inactive,3-expired',
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='Coupons for Services';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='Coupons for Services';
 
 --
 -- Dumping data for table `service_coupons`
@@ -52979,7 +52979,7 @@ CREATE TABLE `service_rewards` (
   `description` tinytext NOT NULL,
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='Rewards to Users from Providers';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='Rewards to Users from Providers';
 
 -- --------------------------------------------------------
 
@@ -53016,7 +53016,7 @@ CREATE TABLE `shops` (
   `created_by` int NOT NULL,
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `shops`
@@ -53052,7 +53052,7 @@ CREATE TABLE `shops_images` (
   `mobile_image` text NOT NULL,
   `status` int NOT NULL DEFAULT '1' COMMENT '0-delete,1-active,2-inactive',
   `is_url` int DEFAULT '1'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `shops_images`
@@ -53116,7 +53116,7 @@ CREATE TABLE `shop_services_list` (
   `duration_in` varchar(20) NOT NULL,
   `remarks` text NOT NULL,
   `delete_status` int NOT NULL DEFAULT '0' COMMENT '1-delete,0-not delete'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -53131,7 +53131,7 @@ CREATE TABLE `shop_service_offered` (
   `created_by` int NOT NULL,
   `created_at` datetime DEFAULT NULL,
   `updated_at` datetime DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -53311,12 +53311,12 @@ INSERT INTO `state` (`id`, `country_id`, `name`, `created_at`, `updated_at`) VAL
 (157, 3, 'Wilaya de Constantine', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (158, 3, 'al-Aghwat', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (159, 3, 'al-Bayadh', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
-(160, 3, 'al-Jazair', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
+(160, 3, 'al-Jaza\'ir', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (161, 3, 'al-Wad', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (162, 3, 'ash-Shalif', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (163, 3, 'at-Tarif', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (164, 4, 'Eastern', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
-(165, 4, 'Manu a', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
+(165, 4, 'Manu\'a', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (166, 4, 'Swains Island', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (167, 4, 'Western', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (168, 5, 'Andorra la Vella', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
@@ -53478,7 +53478,7 @@ INSERT INTO `state` (`id`, `country_id`, `name`, `created_at`, `updated_at`) VAL
 (324, 16, 'Ragged Island', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (325, 16, 'Rum Cay', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (326, 16, 'San Salvador', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
-(327, 17, 'Isa', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
+(327, 17, '\'Isa', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (328, 17, 'Badiyah', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (329, 17, 'Hidd', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (330, 17, 'Jidd Hafs', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
@@ -53487,7 +53487,7 @@ INSERT INTO `state` (`id`, `country_id`, `name`, `created_at`, `updated_at`) VAL
 (333, 17, 'Sitrah', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (334, 17, 'al-Manamah', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (335, 17, 'al-Muharraq', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
-(336, 17, 'ar-Rifa a', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
+(336, 17, 'ar-Rifa\'a', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (337, 18, 'Bagar Hat', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (338, 18, 'Bandarban', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (339, 18, 'Barguna', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
@@ -53565,12 +53565,12 @@ INSERT INTO `state` (`id`, `country_id`, `name`, `created_at`, `updated_at`) VAL
 (411, 19, 'Saint Philip', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (412, 19, 'Saint Thomas', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (413, 20, 'Brest', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
-(414, 20, 'Homjel', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
+(414, 20, 'Homjel\'', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (415, 20, 'Hrodna', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (416, 20, 'Mahiljow', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (417, 20, 'Mahilyowskaya Voblasts', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (418, 20, 'Minsk', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
-(419, 20, 'Minskaja Voblasts', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
+(419, 20, 'Minskaja Voblasts\'', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (420, 20, 'Petrik', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (421, 20, 'Vicebsk', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (422, 21, 'Antwerpen', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
@@ -53874,7 +53874,7 @@ INSERT INTO `state` (`id`, `country_id`, `name`, `created_at`, `updated_at`) VAL
 (720, 43, 'Atacama', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (721, 43, 'Bio Bio', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (722, 43, 'Coquimbo', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
-(723, 43, 'Libertador General Bernardo O', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
+(723, 43, 'Libertador General Bernardo O\'', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (724, 43, 'Los Lagos', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (725, 43, 'Magellanes', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (726, 43, 'Maule', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
@@ -54014,7 +54014,7 @@ INSERT INTO `state` (`id`, `country_id`, `name`, `created_at`, `updated_at`) VAL
 (859, 53, 'Marahoue', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (860, 53, 'Moyen-Cavally', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (861, 53, 'Moyen-Comoe', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
-(862, 53, 'N zi-Comoe', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
+(862, 53, 'N\'zi-Comoe', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (863, 53, 'Sassandra', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (864, 53, 'Savanes', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (865, 53, 'Sud-Bandama', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
@@ -54116,7 +54116,7 @@ INSERT INTO `state` (`id`, `country_id`, `name`, `created_at`, `updated_at`) VAL
 (961, 58, 'Vejle', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (962, 58, 'Vestsjalland', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (963, 58, 'Viborg', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
-(964, 59, 'Ali Sabih', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
+(964, 59, '\'Ali Sabih', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (965, 59, 'Dikhil', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (966, 59, 'Jibuti', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (967, 59, 'Tajurah', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
@@ -54199,7 +54199,7 @@ INSERT INTO `state` (`id`, `country_id`, `name`, `created_at`, `updated_at`) VAL
 (1044, 64, 'Aswan', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1045, 64, 'Asyut', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1046, 64, 'Bani Suwayf', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
-(1047, 64, 'Bur Sa id', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
+(1047, 64, 'Bur Sa\'id', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1048, 64, 'Cairo', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1049, 64, 'Dumyat', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1050, 64, 'Kafr-ash-Shaykh', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
@@ -54457,7 +54457,7 @@ INSERT INTO `state` (`id`, `country_id`, `name`, `created_at`, `updated_at`) VAL
 (1302, 75, 'Territoire de Belfort', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1303, 75, 'Treignac', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1304, 75, 'Upper Normandy', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
-(1305, 75, 'Val-d Oise', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
+(1305, 75, 'Val-d\'Oise', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1306, 75, 'Val-de-Marne', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1307, 75, 'Var', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1308, 75, 'Vaucluse', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
@@ -54649,7 +54649,7 @@ INSERT INTO `state` (`id`, `country_id`, `name`, `created_at`, `updated_at`) VAL
 (1493, 87, 'Carriacou-Petite Martinique', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1494, 87, 'Saint Andrew', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1495, 87, 'Saint Davids', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
-(1496, 87, 'Saint Georges', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
+(1496, 87, 'Saint George\'s', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1497, 87, 'Saint John', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1498, 87, 'Saint Mark', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1499, 87, 'Saint Patrick', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
@@ -54762,7 +54762,7 @@ INSERT INTO `state` (`id`, `country_id`, `name`, `created_at`, `updated_at`) VAL
 (1606, 94, 'Upper Takutu-Upper Essequibo', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1607, 95, 'Artibonite', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1608, 95, 'Centre', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
-(1609, 95, 'Grand Anse', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
+(1609, 95, 'Grand\'Anse', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1610, 95, 'Nord', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1611, 95, 'Nord-Est', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1612, 95, 'Nord-Ouest', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
@@ -54901,7 +54901,7 @@ INSERT INTO `state` (`id`, `country_id`, `name`, `created_at`, `updated_at`) VAL
 (1745, 104, 'al-Qadisiyah', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1746, 104, 'an-Najaf', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1747, 104, 'as-Sulaymaniyah', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
-(1748, 104, 'at-Tamim', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
+(1748, 104, 'at-Ta\'mim', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1749, 105, 'Armagh', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1750, 105, 'Carlow', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1751, 105, 'Cavan', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
@@ -54993,7 +54993,7 @@ INSERT INTO `state` (`id`, `country_id`, `name`, `created_at`, `updated_at`) VAL
 (1837, 107, 'Frosinone', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1838, 107, 'Genoa', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1839, 107, 'Gorizia', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
-(1840, 107, 'L Aquila', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
+(1840, 107, 'L\'Aquila', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1841, 107, 'Lazio', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1842, 107, 'Lecce', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1843, 107, 'Lecco', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
@@ -55047,7 +55047,7 @@ INSERT INTO `state` (`id`, `country_id`, `name`, `created_at`, `updated_at`) VAL
 (1891, 107, 'Treviso', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1892, 107, 'Udine', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1893, 107, 'Umbria', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
-(1894, 107, 'Valle d Aosta', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
+(1894, 107, 'Valle d\'Aosta', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1895, 107, 'Varese', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1896, 107, 'Veneto', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1897, 107, 'Venezia', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
@@ -55130,18 +55130,18 @@ INSERT INTO `state` (`id`, `country_id`, `name`, `created_at`, `updated_at`) VAL
 (1974, 110, 'Saint Peter', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1975, 110, 'Saint Saviour', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1976, 110, 'Trinity', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
-(1977, 111, 'Ajlun', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
+(1977, 111, '\'Ajlun', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1978, 111, 'Amman', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1979, 111, 'Irbid', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1980, 111, 'Jarash', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
-(1981, 111, 'Maan', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
+(1981, 111, 'Ma\'an', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1982, 111, 'Madaba', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
-(1983, 111, 'al-Aqabah', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
-(1984, 111, 'al-Balqa', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
+(1983, 111, 'al-\'Aqabah', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
+(1984, 111, 'al-Balqa\'', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1985, 111, 'al-Karak', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1986, 111, 'al-Mafraq', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1987, 111, 'at-Tafilah', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
-(1988, 111, 'az-Zarqa', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
+(1988, 111, 'az-Zarqa\'', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1989, 112, 'Akmecet', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1990, 112, 'Akmola', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (1991, 112, 'Aktobe', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
@@ -55317,9 +55317,9 @@ INSERT INTO `state` (`id`, `country_id`, `name`, `created_at`, `updated_at`) VAL
 (2161, 122, 'Leribe', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (2162, 122, 'Mafeteng', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (2163, 122, 'Maseru', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
-(2164, 122, 'Mohales Hoek', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
+(2164, 122, 'Mohale\'s Hoek', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (2165, 122, 'Mokhotlong', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
-(2166, 122, 'Qachas Nek', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
+(2166, 122, 'Qacha\'s Nek', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (2167, 122, 'Quthing', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (2168, 122, 'Thaba-Tseka', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
 (2169, 123, 'Bomi', '2020-04-06 09:48:00', '2020-04-06 09:48:00'),
@@ -57288,7 +57288,7 @@ INSERT INTO `state` (`id`, `country_id`, `name`, `created_at`, `updated_at`) VAL
 (4130, 113, 'Nyandarua County', '2023-05-13 22:31:49', '2023-05-13 10:01:49'),
 (4131, 113, 'Nyeri County', '2023-05-13 22:32:29', '2023-05-13 10:02:29'),
 (4132, 113, 'Kirinyaga County', '2023-05-13 22:32:46', '2023-05-13 10:02:46'),
-(4133, 113, 'Muranga County', '2023-05-13 22:33:10', '2023-05-13 10:03:10'),
+(4133, 113, 'Murang\'a County', '2023-05-13 22:33:10', '2023-05-13 10:03:10'),
 (4134, 113, 'Kiambu County', '2023-05-13 22:33:30', '2023-05-13 10:03:30'),
 (4135, 113, 'Turkana County', '2023-05-13 22:33:52', '2023-05-13 10:03:52'),
 (4136, 113, 'West Pokot County', '2023-05-13 22:34:11', '2023-05-13 10:04:11'),
@@ -57677,7 +57677,7 @@ CREATE TABLE `sub_subcategories` (
   `status` int UNSIGNED NOT NULL,
   `created_at` datetime NOT NULL,
   `updated_on` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -57752,7 +57752,7 @@ INSERT INTO `system_settings` (`id`, `key`, `value`, `system`, `groups`, `update
 (6267, 'firebase_server_key', 'AAAAnFSVcnc:APA91bES2UqRCnZlckD6g7hpo63_9O1ydEulQAU5Xu3vaYWMvQvnjyWyZxsodzbB27Mazws00nTAywHiR1k0z2jcBwcHlytcyksT79cZ4g_2Fywp4skWe_YuEZmUFf_ZXcBr-f2rt7Hi\r\n', 1, 'config', '2022-01-11', 1),
 (6268, 'apns_server_key', 'AAAAnFSVcnc:APA91bES2UqRCnZlckD6g7hpo63_9O1ydEulQAU5Xu3vaYWMvQvnjyWyZxsodzbB27Mazws00nTAywHiR1k0z2jcBwcHlytcyksT79cZ4g_2Fywp4skWe_YuEZmUFf_ZXcBr-f2rt7Hi', 1, 'config', '2021-12-07', 1),
 (6269, 'terms', '<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">منصة / تطبيق: العناية من شركة العناية</span></span></p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:left\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">ويشار</span> <span style=\"font-size:16.0pt\">إليه في</span> <span style=\"font-size:16.0pt\">هذه</span> <span style=\"font-size:16.0pt\">الاتفاقية <strong>بالطرف</strong></span><strong> </strong><strong><span style=\"font-size:16.0pt\">الأول</span></strong><span style=\"font-size:16.0pt\">. </span></span></p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:justify\">&nbsp;</p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:left\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">الشريك او مقدم الخدمات <strong>بالطرف الثاني أو المورد</strong>.</span></span></p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:center\">&nbsp;</p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:center\"><span style=\"font-size:11pt\"><strong><span style=\"font-size:18.0pt\">التمهيد</span></strong></span></p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">حيث إن الطرف الأول تطبيق إلكتروني يسمح للمستخدمين بحجز مواعيد مسبقة ومحددة والذهاب متاجر الطرف الثاني دون الانتظار، وذلك مقابل اشتراك سنوي يسدده الطرف الثاني. وحيث حيث إن الطرف الأول يقوم بعرض أسماء وعناوين المتاجر المشتركة في الخدمة، والترويج لها، وذلك للشركات و / أو الأفراد. وحيث أن الطرف الثاني يرغب في الاشتراك في تلك الخدمة من خلال التطبيق الإلكتروني المملوك للطرف الأول فقد اتفق الطرفان على ما يلي:</span></span></p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\">&nbsp;</p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\">&nbsp;</p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\"><span style=\"font-size:11pt\"><strong><span style=\"font-size:18.0pt\">البند الأول</span></strong></span></p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">يعتبر التمهيد السابق جزءً لا يتجزأ من بنود العقد ومتممًا له.</span></span></p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\">&nbsp;</p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\"><span style=\"font-size:11pt\"><strong><span style=\"font-size:18.0pt\">البند الثاني: عملية التسجيل وبيع الخدمات</span></strong></span></p>\r\n\r\n<ol>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">يقوم الطرف الثاني بإنشاء حساب على التطبيق الإلكتروني المملوك للطرف الأول</span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">يقوم الطرف الثاني بالتسجيل على التطبيق. وإدراج كافة البيانات اللازمة ووضع كلمة المرور واسم المستخدم، ويتم اعتماد التسجيل من الطرف الأول.</span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">يحدد العميل الموعد المناسب له لزيارة الطرف الثاني ويجري حجز الموعد وسداد ثمن الخدمة عن طريق التطبيق الإلكتروني الخاص بالطرف الأول.</span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">يسدد الطرف الثاني مقابل اشتراكه في خدمات التطبيق الإلكتروني سنويًا حسب الباقة المختارة، والمذكورة تفصيلا في ملحق العقد رقم 1</span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">يسدد الطرف الأول مستحقات الطرف الثاني كل خمسة عشر يومًا.</span></span></li>\r\n</ol>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\">&nbsp;</p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\"><span style=\"font-size:11pt\"><strong><span style=\"font-size:18.0pt\">البند الثالث: التزامات الطرف الأول</span></strong></span></p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">يقوم الطرف الأول بتزويد الطرف الثاني بما يلي:</span></span></p>\r\n\r\n<ol>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">الموافقة على الخدمات التي يحددها الطرف الثاني عبر التطبيق الإلكتروني وذلك بغرض التسويق والتجارة الإلكترونية لخدمات المورد. يلتزم (الطرف الأول) بموجب هذا العقد أن يقبل أوامر الشراء الإلكترونية على أن يقوم بتحصيل أي مدفوعات (سواء نقديًا أو إلكترونيًا عن طريق بطاقات الائتمان) من العملاء نيابة عن المورد (الطرف الثاني).</span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">لا يحق للطرف الأول تغيير سعر الخدمة دون موافقة الطرف الثاني.</span></span></li>\r\n</ol>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\">&nbsp;</p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\"><span style=\"font-size:11pt\"><strong><span style=\"font-size:18.0pt\">البند الرابع: التزامات الطرف الثاني</span></strong></span></p>\r\n\r\n<ol>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">إذا قام الطرف الثاني بعرض خدمات تحتاج إلى تراخيص سواء بالموافقة من وزارة الصحة أو غيرها، فيجب أن يقدم للطرف الأول ما يفيد حصوله على تلك الموافقات قبل عرضها على تطبيق الطرف الأول.</span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">يسدد الطرف الثاني الاشتراك السنوي في حساب الطرف الأول حسب الباقة التي تناسب الطرف الثاني</span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">يلتزم الطرف الثاني بالعروض المقدمة على التطبيق الإلكتروني، ويتعهد بعدم الإخلال بها، وإلا يتحمل كافة الإجراءات المترتبة على ذلك.</span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">يلتزم الطرف الثاني بحسن التعامل مع عملاء التطبيق الإلكترونية وعدم الإضرار بأي منهم، ويتعهد بعدم الإخلال بذلك، وإلا يتحمل كافة الإجراءات المترتبة..</span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">يلتزم الطرف الثاني بتنفيذ الخدمات لعملاء التطبيق الإلكتروني في مدة لا تتعد خمسة عشر دقيقة من وصول العميل في ميعاده المحدد مسبقًا عن طريق التطبيق الإلكتروني.</span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">ويلتزم الطرف الثاني بأن تكون قائمة أسعار الخدمات موحدة بين التطبيق والمتجر الخاص بالطرف الثاني.</span></span></li>\r\n</ol>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\">&nbsp;</p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\"><span style=\"font-size:11pt\"><strong><span style=\"font-size:18.0pt\">البند الخامس: تعهدات وضمانات الطرف الثاني</span></strong></span></p>\r\n\r\n<ol>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">يتعهد الطرف الثاني بأنه يتمتع بالأهلية القانونية والتعاقدية وأن له الحق فى بيع تلك الخدمات على مسؤوليته الشخصية في حالة مخالفة ذلك.</span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">يتعهد الطرف الثاني بعدم مخالفة اللوائح والقوانين المطبقة ومنها وبدون حصر حقوق الشهر والملكية أو أي حقوق أخرى تنظمها القوانين واللوائح والقرارات أو القوانين الخاصة بحماية المستهلك.</span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">يتعهد الطرف الثاني بأنه في حاله الإخلال بأي من التعهدات والالتزامات السابقة عليه سيقوم بتعويض الطرف الأول والمشترين على الضرر بذات قيمه الخدمة المشتراه و/أو أي ضرر مشابه.</span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">يعتبر الطرف الثاني المسؤول الوحيد عن الخدمات المقدمة إمام جميع الجهات الحكومية ويلتزم بجميع لوائح هذه الجهات.</span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">غير مسموح للطرف الثاني بمشاركة بيانات التواصل المباشرة به مع العملاء المتعاملين عن طريق المنصة. مما يعرض الحساب للإلغاء</span></span></li>\r\n</ol>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\">&nbsp;</p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\"><span style=\"font-size:11pt\"><strong><span style=\"font-size:18.0pt\">البند السادس: الرسوم وطريقة السداد</span></strong></span></p>\r\n\r\n<ol>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">يلتزم الطرف الأول في حالة ما إذا اضطر وذلك حسب مقتضيات السوق لفرض رسوم إضافية أو تعديل نسبة رسوم الخدمة والعمولة على بيع الخدمات عبر التطبيق الإلكتروني بالاتفاق مع الطرف الثاني، ويجب أن يرسل (الطرف الأول) إخطار للطرف الثاني. </span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">يقوم (الطرف الأول) بتحويل المبالغ المستحقة للطرف الثاني بعد خصم رسوم عمليات الدفع المتفق عليها والخدمات ومصاريف البنك </span><span style=\"font-size:16.0pt\">على أن يتم تحويل مستحقات الطرف الثاني في كل خمسة عشر يومًا، وللتفصيل، يتم التحويل في الأول والخامس عشر من كل شهر قد يتم التأخير بسبب مقتضيات السوق والتعاملات البنكية كالعطل وتصادف مع أيام الاجازات الرسمية. </span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">سيخصم (الطرف الأول) نسبة رسوم عمليات الشبكة مدى وهي عمولة ثابتة كما هو موضح بملحق العقد، وتكون نسبة من إجمالي مبلغ المبيعات التي تمت من خلال التطبيق الإلكتروني وهي (1.5%)، وهي نسبة شركة مدى التابعة للبنك المركزي السعودي.</span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">في حال كانت سداد العميل في عمليات الشبكة عن طريق فيزا او ماستركارد يتم خصم 2% مقابل خدمات رسوم الشبكة (فيزا وماستر كارد).</span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">يتم احتساب نصف ريال للمعاملة الواحدة، سواء شراء أو استرداد يتم احتسابها عن طريق البنك وهي رسوم ثابتة.</span></span></li>\r\n</ol>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\">&nbsp;</p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\"><span style=\"font-size:11pt\"><strong><span style=\"font-size:18.0pt\">البند السابع: المدة والانهاء</span></strong></span></p>\r\n\r\n<ol>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">مدة هذا العقد تبدأ من بداية اشتراكك في الباقة المختارة في المنصة وتنتهى بحسب نهاية الباقة مالم يتم تجديدها بنفس الشروط.</span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">في حالة إخلال أي طرف بالتزاماته الجوهرية بهذا العقد يحق لأي طرف إنهاء العقد. </span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">في حال ان الطرف الثاني لم يقم&nbsp; بتنفيذ الخدمات للعملاء المنصة او تسبب بإشكالات صحية أو لم ينفذ الخدمات كما هو منصوص عليها في المنصة أو العروض. ويحق للطرف الأول انهاء العقد ويتحمل الطرف الثاني المخل بواجباته في العقد تبعات ذلك ويحق للطرف الأول إنهاء اشتراك الطرف الثاني ولا يتم استرداد رسوم الاشتراك. </span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">للطرفين الحق في إنهاء هذا الاتفاق وذلك بعد إخطار الطرف الآخر برغبته في الإنهاء وبعد تسوية جميع مستحقات الطرف الآخر وبموافقة كل الطرفين. </span></span></li>\r\n</ol>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\">&nbsp;</p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\">&nbsp;</p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\">&nbsp;</p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\"><span style=\"font-size:11pt\"><strong><span style=\"font-size:18.0pt\">البند الثامن: علاقة الأطراف</span></strong></span></p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">يقر الأطراف أن العلاقة التعاقدية التي تربطهم بموجب هذا العقد مبنية على الاستقلالية بين الطرفين، وبالتالي لا يمكن أن يتم تفسير أي شيء في هذا العقد بطريقة تشير إلى وجود اتفاقية شراكة أو مساهمة أو أي نوع من أنواع المشاركة.</span></span></p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\">&nbsp;</p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\"><span style=\"font-size:11pt\"><strong><span style=\"font-size:18.0pt\">البند التاسع: الإخلال</span></strong></span></p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">في حاله إخلال أي طرف ببنود هذه المذكرة يلتزم الطرف المخالف بتعويض الطرف الآخر التي تقع عليه.</span></span></p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\">&nbsp;</p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\"><span style=\"font-size:11pt\"><strong><span style=\"font-size:18.0pt\">البند العاشر: القوانين المعمول بها والاختصاص</span></strong></span></p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">يحكم هذا العقد ويفسّر وفقًا لقوانين دولة المملكة العربية السعودية، وهي خاضعة للتشريعات.</span></span></p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">وأي خلاف ينشأ حول تفسير أو تطبيق هذا العقد، يجب أن يتم حله بالطرق الودية أولا وفي حال عجز الطرفين عن الوصول لحل ودي يختص القضاء بالفصل في النزاع الناشئ بينهما وتختص المحاكم التابعة للرياض بالفصل فيه وفقا للقوانين المطبقة في الدولة. </span></span></p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\">&nbsp;</p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\"><span style=\"font-size:11pt\"><strong><span style=\"font-size:18.0pt\">البند الحادي عشر: البيانات البنكية:</span></strong></span></p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">بقبول الطرف الثاني لهذا العقد الإلكتروني بالبريد المسجل به يتحمل كامل المسؤوليات الآتية:</span></span></p>\r\n\r\n<ol>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">حيث أن التسجيل / الدخول لحساب الطرف الثاني يتطلب كلمه مرور برجاء إبقاءها سريه تمامًا</span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">إضافة أي حساب بنكي على موقع الطرف الأول سوف يتم قبوله مباشرة وتحويل أي مبالغ معلقه عليه حيث أن الطرف الثاني الوحيد المسؤول عن حسابه وكلمه المرور الخاصة به.</span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">إضافة الحساب البنكي مسؤوليه الطرف الثاني أولا وأخيرًا ولن يتحمل (الطرف الأول) أي مسؤولية قانونية تجاه ذلك، حيث أن الطرف الثاني الوحيد الذي يعرف كلمة المرور السرية والوحيد المخول بالدخول على هذا الحساب. </span></span></li>\r\n</ol>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\">&nbsp;</p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\">&nbsp;</p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\">&nbsp;</p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\"><span style=\"font-size:11pt\"><strong><span style=\"font-size:18.0pt\">البند الثاني عشر: الموافقة على هذا العقد والأحكام</span></strong></span></p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">يوقع هذا العقد الكترونيا.</span></span></p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\">&nbsp;</p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:center\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">والله ولي التوفيق،،،</span></span></p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\">&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p style=\"margin-left:0in; margin-right:0in\">&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:center\"><span style=\"font-size:11pt\"><strong><span style=\"font-size:18.0pt\">ملحق العقد رقم 1</span></strong></span></p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:center\">&nbsp;</p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\"><span style=\"font-size:11pt\"><strong><span style=\"font-size:18.0pt\">الباقات</span></strong></span></p>\r\n\r\n<ol>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">الباقة الأساسية</span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">الباقة الفضية</span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">الباقة الذهبية</span></span></li>\r\n</ol>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\">&nbsp;</p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:center\">&nbsp;</p>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\"><span style=\"font-size:11pt\"><strong><span style=\"font-size:18.0pt\">من إجمالي المبالغ المستلمة من قبل الطرف الأول يتم خصم ما يلي:</span></strong></span></p>\r\n\r\n<ol>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">1.5% وهي نسبة شركة مدى التابعة للبنك المركزي السعودي</span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">2% مقابل خدمات فيزا وماستر كارد </span></span></li>\r\n	<li dir=\"RTL\" style=\"text-align:right\"><span style=\"font-size:11pt\"><span style=\"font-size:16.0pt\">نصف ريال وهو مصاريف البنكية على المعاملة الواحدة، سواء شراء أو استرداد</span></span></li>\r\n</ol>\r\n\r\n<p dir=\"RTL\" style=\"margin-left:0in; margin-right:0in; text-align:right\">&nbsp;</p>\r\n', 1, 'config', '2021-12-07', 1),
-(6270, 'privacy', 'User Privacy\r\nNiajiri is a fun, all rounded interactive website that lets you find customers, professionals,\r\njobs, products and interact and to sign up and communicate with each other. Like any website\r\nthat offers a service where you register and provide information about yourself or your\r\nopinions, it is wise to pay attention to your business information.\r\nAt niajiri we understand this and have established this Privacy Policy to explain how\r\ninformation is collected on our website, and how this information is used. Niajiri is intended\r\nsolely for use by persons 18 years of age or older. All persons under 18 are prohibited from\r\nregistering on Niajiri.\r\nHow Does Niajiri Protect Childrens Privacy?\r\nThe safety and privacy of children is extremely important to us. Niajiri is a general audience\r\nweb site that complies with the Childrens Online Privacy Protection Act (COPPA). Our\r\nregistration process is designed to restrict children under the age of 18 from becoming\r\nmembers of Niajiri and using our site. Weve also designed the tone and style of the site to\r\nappeal to adults.\r\nIf we receive information suggesting that a user who has registered with Niajiri is under the\r\nage of 18, we require the user to provide evidence confirming that the user is at least 18 years\r\nold. If the user fails to provide such information within 48 hours, we immediately terminate\r\nthe users account and nullify all personally identifiable information displaying on the site and\r\ncollected from such user.\r\nWhat Is The Childrens Online Privacy Protection Act?\r\nThe Childrens Online Privacy Protection Act (COPPA) requires that commercial web sites\r\nobtain parental consent (under most circumstances) prior to the collection of any personally\r\nidentifiable information from children whom they know to be under the age of 18. In addition,\r\nCOPPA requires that web sites that collect personal information from children under the age\r\nof 18 provide parents with:\r\nNotice: Parents must be provided notice regarding what information is collected, how the\r\ninformation will be used, and with whom the information may be shared. The ability to\r\nprevent further use of the information collected about the child and prevent any future\r\ncollection of personal information from the child.\r\nThe ability to access and review their childs personal information: COPPA also limits the\r\namount of personal information a web site can collect from a child. Web sites may not collect\r\nany more personal information than is necessary to participate in a given game or activity.\r\nParents: If your child is under the age of 18 and has joined niajiri using a false age, please\r\nnotify niajiri Safety Squad at info@niajiri.biz, and we will immediately cancel your childs\r\naccount and nullify all personally identifiable information displaying on the site and collected\r\nfrom them.\r\nIf you would like to know more about our site, information practices, stored information\r\nabout your child, or how to close your childs account, please contact Niajiri by sending a letter\r\nto: -\r\nNiajiri Limited,\r\nP.O.BOX 1094-20100,\r\nNakuru, KENYA.\r\nWe will happily respond to all letters from parents with Privacy questions or concerns.\r\nUser Information Collected By Niajiri.\r\nPersonal Identifiable User Information\r\nAll users begin using niajiris services by registering on the niajiri website. When registering,\r\nusers provide personally identifiable information, which includes their first and last name,\r\nemail address, mailing address, and business name for companies or businesses, a userchosen password and other personal information. During registration, users also complete\r\nsurvey questions that provide information that is helpful for us to understand the\r\ndemographics and consumer behavior of our users, for their online profile, which includes a\r\nvariety of questions about the users interests, niajiri sends a validation email message to each\r\nuser, with a URL link back to our website. This URL contains an alphanumeric identifier and a\r\nuser-specific numeric passcode that allows us to confirm the users identity.\r\nCookies And Passive Data Collection\r\nNiajiri logs standard user information and clickstream data for all users, including a users IP\r\naddress, operating system. When users visit particular pages within Niajiri a UserID may be\r\nplaced in the URL, allowing customized features for the user. Users should be aware that\r\nother websites visited before entering niajiri might place personally identifiable information\r\nwithin a users URL during a visit to their website, and niajiri has no control over such websites.\r\nAccordingly, some of this information may be logged by a subsequent website that collects\r\nURL information. In addition to the standard log information, niajiri uses a variety of\r\ntechnologies to create a more personalized experience for its users.\r\nDocument Retention Schedule\r\nAll personal information collected by niajiri in connection with your use of the niajiri website,\r\nincluding, without limitation, your name, location, email address, pictures, business\r\nconnections, messages, comments, login information, IP addresses and other data, will be\r\nstored by niajiri indefinitely in a safe and secure manner.\r\nCollection\r\nNiajiri uses cookie, IP address, click stream and URL information to improve the content of\r\nthe niajiri website, the quality of niajiri servers, and to provide enhanced features to users,\r\nwhere available. We use cookies to save UserIDs, session validators, and on users browsers\r\nand hard drives, and may use them to provide tailored products or services to those users, as\r\nthey become available. We also cross-match user information with information collected\r\nfrom cookies and clickstream data in order to test features of the niajiri website, and to better\r\npersonalize our various offerings for users. IP Addresses also help us to diagnose problems\r\nwith our server, to administer the niajiri site, and to otherwise provide the niajiri service to\r\nits users.\r\nIP addresses may be disclosed to a third party if we believe in good faith that the law or legal\r\nprocess so requires, or to protect the rights or property of niajiri or others. From time to time\r\nwe may extend various offers from various partner companies, including news or additional\r\ndetails on products and services. A users usage history may result in specifically tailored\r\nspecial offer screens or products. We may also produce aggregate reports for advertisers. For\r\nexample, we may report to advertisers the number of users who clicked on an advertisement,\r\nor the number of users that visited different portions of the niajiri website. This information\r\nwill not include personally identifiable information about a user, or a specific users online\r\nusage patterns.\r\nPayment Information\r\nIf you use the Service to make or receive payments, we will also collect certain payment\r\ninformation, such as credit card, PayPal or other financial account information, and billing\r\naddress. Not that this information shall never be shared with anyone and shall only be used\r\nfor billing purposes.\r\nProfile Information\r\nNiajiri allows Members to provide information to a profile and/or journal entry that is\r\naccessible to other users. We use this profile information for the purposes of providing our\r\nservices to you, such as to analyze demographics, to better personalize our various offerings\r\nfor users, or to enable other users to find your profile. All information, including any\r\npersonally identifiable information, which is disclosed by users in his/her or its for a business\r\ncentre public profile and journal entries are available for others to see. Please only post\r\ncontact information which is accessible to you at your convenience and for purposes this\r\nwebsite intends to serve, offering a platform to work. We also caution you not to share\r\nsensitive information (such as social security numbers, credit or debit card numbers or any\r\nsuch information that may compromise your business status) with other users whom you do\r\nnot know or place such information in your profile.\r\nSurveys And Contests\r\nAt various times we may offer surveys or contests to users. Surveys may ask for contact,\r\ndemographic or unique identifying information to increase the value of the results. Contests\r\nmay require contact information or other demographic or personally identifiable information\r\nin order to determine eligibility. Niajiri may use information collected from surveys and\r\ncontests for the entertainment of users, and to determine, notify and contact winners of\r\nvarious contests. In addition, users demographic and/or personally identifiable information\r\nand responses to survey and contest questions may be used by niajiri and/or shared with third\r\nparties in order to provide specifically tailored special offers or advertisements. Niajiri will not\r\nshare a users email address with third parties unless the user specifically opts-in to such\r\nsharing during the completion of or registration for a survey or contest.\r\nThird Party Links And Ad Servers\r\nPlease be aware that links to third party websites and third-party ad server advertisements\r\nthat are found on niajiri may, or may not, use cookies, pixel tags and web tags. Niajiri may\r\nprovide links to third party websites, which may, or may not, use cookies, pixel tags and web\r\ntags. Ad servers may also use these tools to compile information about where users saw\r\nparticular advertisements, and to determine which ads were clicked on. We are not\r\nresponsible for, or have any control over, the privacy policies of those third-party websites\r\nand ad servers, and encourage all users to read the privacy policies of each and every website\r\nvisited when linking directly from niajiri.\r\nProtection Of Niajiri And Others\r\nNiajiri may disclose personally identifiable user information if required to do so by law or in\r\nthe good faith in belief that such disclosure is reasonably necessary to respond to court\r\nsummons, court orders, or other legal process. Niajiri may also disclose information about its\r\nusers to law enforcement officers or others, in the good faith belief in that such disclosure is\r\nreasonably necessary to: enforce our terms of use, respond to claims that any posting or other\r\ncontent violates the rights of third-parties; or protect the rights, property, or personal safety\r\nof niajiri, its users or the general public.\r\nSecurity\r\nNiajiri uses industry standard security measures to protect the loss, misuse and alteration of\r\nthe information under our control. Although we make good faith efforts to store the\r\ninformation collected by the niajiri website in a secure operating environment that is not\r\navailable to the public, we cannot guarantee complete security. Further, while we make every\r\neffort to ensure the integrity and security of our network and systems, we cannot guarantee\r\nthat our security measures will prevent third-party \"hackers\" from illegally obtaining this\r\ninformation.\r\nUpdating Or Removing User Information\r\nAs a registered user, you may, at any time, choose to correct or update the information you\r\nhave submitted to us. This may be done by the following method:\r\nLog in to your niajiri account on our website > Click the button that suits the information\r\nchange (Settings) > Change or edit any of the information there, and then click the button at\r\nthe bottom that says \"save\".\r\nAs a registered user, you may, at any time, cancel your account by following the instructions\r\nset forth in your Account page under settings.\r\nUsers can manage their mailing preferences to specify which type of email to opt out of on\r\ntheir Update Account Info page when they are logged in, canceling ones account will also\r\nprevent a user from receiving future communications from niajiri, and niajiri will not share\r\nthe users information with third parties for marketing purposes.\r\nNo Spam Policy\r\nWe at niajiri.biz are opposed to spam. Our No Spam Policy and Terms of Service prohibit all\r\nusers from engaging in any activity involving spam on our service. Violations of these policies\r\nmay result in immediate termination of service and legal action against any spammer. Niajiri\r\nTerms of Service expressly prohibit users from uploading, posting, emailing, transmitting or\r\notherwise making available junk mail, commercial advertisements, or other form of\r\ncommercial solicitation on the niajiri website or through niajiris services, any violation of our\r\npolicies, by sending unsolicited email advertisements to or through niajiri website. Any\r\nunauthorized use of niajiri.biz computer systems is a violation of our policies and certain laws,\r\nincluding the Copyright Laws of any country or county that one may reside and is subject to\r\nall Treaties related thereon. Such violations may subject the sender and his or her agents to\r\ncivil and criminal penalties.\r\nOther Disclosures –\r\nChange Of Ownership\r\nIn the event of a change in ownership, or a direct merger or acquisition with another entity,\r\nwe reserve the right to transfer all of niajiris user information, including email addresses and\r\npostal addresses, to a separate entity. All registered users will be notified of any change in\r\nownership, merger or acquisition of niajiri`s assets by a third party, and may choose to modify\r\nany of their registration information at that time.\r\nRevisions To This Policy\r\nNiajiri reserves the right to revise, amend, or modify this policy and our other policies and\r\nagreements at any time and in any manner. Notice of any revision, amendment, or\r\nmodification will be posted on the website, and a users continued use of niajiri will signify\r\nagreement to such changes.\r\nSafety, Security, And Privacy Overview\r\nNiajiri is committed to making its community safe. Since its founding in 2018, Niajiri has\r\ndesigned features specifically to enhance the safety of its online members. Highlights of\r\nNiajiris safety, security and privacy measures include:\r\n1. A dedicated 24X7 customer team who review and respond to member content and\r\nconcerns.\r\n2. A strict policy that forbids abuse including but not limited to posting pornography,\r\nabusive messaging, restrictions on contact between adults and members under 18,\r\nspamming and phishing.\r\nOversight by safety and security shall be handled by the jambobee legal expert team. Niajiri\r\nis vigilant in its efforts to keep older members from contacting community members under\r\nthe age of 18 and has partnered with law enforcement to help ensure safety for everyone.\r\nSpecific steps Niajiri has taken include:\r\nGeneral Safety Tips:\r\n▪ Take caution when communicating with strangers.\r\n▪ Stop communicating with anyone who pressures you for personal or financial\r\ninformation.\r\n▪ If you choose to have a face-to-face meeting, always tell a friend or family member\r\nwhere you are going and when you will return, meet in a public place with many\r\npeople around, provide your own transportation, do not agree to be picked up at\r\nyour home.\r\n▪ Always transact within the bounds of niajiri to prevent fraudulent dealings by\r\nunscrupulous business persons\r\nPreventing Underage Users from Using Niajiri\r\nNiajiris Terms of Use dictate that members must be 18 years of age or older to participate in\r\nits community. Niajiri prevents sign ups by users whose register under age 18. Protecting\r\nYounger Members from Inappropriate Content:\r\n1. Hosted images and videos are reviewed for compliance and inappropriate content is\r\nremoved and blocked from the site.\r\n2. Member accounts are deleted for uploading nudity and pornographic images and\r\nvideos.\r\n3. Groups are reviewed when inappropriate content is reported and shut down as\r\nrequired.\r\n4. Detailed IP logs are maintained for law enforcement teams who investigate abuse.\r\nReporting Inappropriate Content\r\nMembers are encouraged to report content offenses directly to the Niajiri Safety Squad.\r\nMembers can provide reasons when reporting images for Terms of Service violations.\r\nMembers can report spam messages, posts and inappropriate profiles to Niajiri. For more\r\ninstructions on our reporting features please visit our Report user page.\r\nPartnering With Law Enforcement\r\nCustomer Care Team: Responds to all abuse complaints within 72 hours.\r\nContent Assurance Team: Ensures integrity of safety systems and flags potential flaws.\r\nParent Care Team: Dedicated parent hotline, email (info@niajiri.biz) and guidebook.\r\nLaw Enforcement Team: Dedicated hotline, email (lawenforcement@niajiri.biz) and\r\nguidebook.\r\nSafety Squad Team: Dedicated safety team (safetysquad@niajiri.biz) who identifies potential\r\nproblems and takes immediate action when safety issues occur.\r\nApplication Security and Data Collection\r\nAll applications on Niajiri are governed by the same privacy controls that are in place for\r\nmembers. All applications must use Niajiri APIs, which have built-in security features. Niajiri\r\ntakes action against applications that violate safety and security requirements.\r\nOngoing Support of Government Legislation to Prevent Safety Issues\r\nEmail Registration Legislation: Niajiri supports state legislation that would require registered\r\nsex offenders to register all of their email addresses, so that Niajiri can block them from\r\naccessing Niajiri in the first place. These measures represent just a sampling of the steps Niajiri\r\nhas taken to protect its community safety and enforce its rules.\r\nReporting Abuse\r\nWe work hard to keep Niajiri a fun, safe and business friendly place and appreciate your\r\nassistance in accomplishing this. If you see any material that violates our Terms of Service,\r\nplease report the specific item (a users profile, photo, message, comment, etc.) using the\r\n\'Report Abuse\' links located throughout the site.\r\nTo report any incident involving child exploitation, please send an email to\r\nchildsafety@naijiri.biz This e-mail address is being protected from spambots. You need\r\nJavaScript enabled to view it immediately.\r\n', 1, 'config', '2021-12-07', 1),
+(6270, 'privacy', 'User Privacy\r\nNiajiri is a fun, all rounded interactive website that lets you find customers, professionals,\r\njobs, products and interact and to sign up and communicate with each other. Like any website\r\nthat offers a service where you register and provide information about yourself or your\r\nopinions, it is wise to pay attention to your business information.\r\nAt niajiri we understand this and have established this Privacy Policy to explain how\r\ninformation is collected on our website, and how this information is used. Niajiri is intended\r\nsolely for use by persons 18 years of age or older. All persons under 18 are prohibited from\r\nregistering on Niajiri.\r\nHow Does Niajiri Protect Children\'s Privacy?\r\nThe safety and privacy of children is extremely important to us. Niajiri is a general audience\r\nweb site that complies with the Children\'s Online Privacy Protection Act (COPPA). Our\r\nregistration process is designed to restrict children under the age of 18 from becoming\r\nmembers of Niajiri and using our site. We\'ve also designed the tone and style of the site to\r\nappeal to adults.\r\nIf we receive information suggesting that a user who has registered with Niajiri is under the\r\nage of 18, we require the user to provide evidence confirming that the user is at least 18 years\r\nold. If the user fails to provide such information within 48 hours, we immediately terminate\r\nthe user\'s account and nullify all personally identifiable information displaying on the site and\r\ncollected from such user.\r\nWhat Is The Children\'s Online Privacy Protection Act?\r\nThe Children\'s Online Privacy Protection Act (COPPA) requires that commercial web sites\r\nobtain parental consent (under most circumstances) prior to the collection of any personally\r\nidentifiable information from children whom they know to be under the age of 18. In addition,\r\nCOPPA requires that web sites that collect personal information from children under the age\r\nof 18 provide parents with:\r\nNotice: Parents must be provided notice regarding what information is collected, how the\r\ninformation will be used, and with whom the information may be shared. The ability to\r\nprevent further use of the information collected about the child and prevent any future\r\ncollection of personal information from the child.\r\nThe ability to access and review their child\'s personal information: COPPA also limits the\r\namount of personal information a web site can collect from a child. Web sites may not collect\r\nany more personal information than is necessary to participate in a given game or activity.\r\nParents: If your child is under the age of 18 and has joined niajiri using a false age, please\r\nnotify niajiri Safety Squad at info@niajiri.biz, and we will immediately cancel your child\'s\r\naccount and nullify all personally identifiable information displaying on the site and collected\r\nfrom them.\r\nIf you would like to know more about our site, information practices, stored information\r\nabout your child, or how to close your child\'s account, please contact Niajiri by sending a letter\r\nto: -\r\nNiajiri Limited,\r\nP.O.BOX 1094-20100,\r\nNakuru, KENYA.\r\nWe will happily respond to all letters from parents with Privacy questions or concerns.\r\nUser Information Collected By Niajiri.\r\nPersonal Identifiable User Information\r\nAll users begin using niajiri\'s services by registering on the niajiri website. When registering,\r\nusers provide personally identifiable information, which includes their first and last name,\r\nemail address, mailing address, and business name for companies or businesses, a userchosen password and other personal information. During registration, users also complete\r\nsurvey questions that provide information that is helpful for us to understand the\r\ndemographics and consumer behavior of our users, for their online profile, which includes a\r\nvariety of questions about the user\'s interests, niajiri sends a validation email message to each\r\nuser, with a URL link back to our website. This URL contains an alphanumeric identifier and a\r\nuser-specific numeric passcode that allows us to confirm the user\'s identity.\r\nCookies And Passive Data Collection\r\nNiajiri logs standard user information and clickstream data for all users, including a user\'s IP\r\naddress, operating system. When users visit particular pages within Niajiri a UserID may be\r\nplaced in the URL, allowing customized features for the user. Users should be aware that\r\nother websites visited before entering niajiri might place personally identifiable information\r\nwithin a user\'s URL during a visit to their website, and niajiri has no control over such websites.\r\nAccordingly, some of this information may be logged by a subsequent website that collects\r\nURL information. In addition to the standard log information, niajiri uses a variety of\r\ntechnologies to create a more personalized experience for its users.\r\nDocument Retention Schedule\r\nAll personal information collected by niajiri in connection with your use of the niajiri website,\r\nincluding, without limitation, your name, location, email address, pictures, business\r\nconnections, messages, comments, login information, IP addresses and other data, will be\r\nstored by niajiri indefinitely in a safe and secure manner.\r\nCollection\r\nNiajiri uses cookie, IP address, click stream and URL information to improve the content of\r\nthe niajiri website, the quality of niajiri servers, and to provide enhanced features to users,\r\nwhere available. We use cookies to save UserIDs, session validators, and on users\' browsers\r\nand hard drives, and may use them to provide tailored products or services to those users, as\r\nthey become available. We also cross-match user information with information collected\r\nfrom cookies and clickstream data in order to test features of the niajiri website, and to better\r\npersonalize our various offerings for users. IP Addresses also help us to diagnose problems\r\nwith our server, to administer the niajiri site, and to otherwise provide the niajiri service to\r\nits users.\r\nIP addresses may be disclosed to a third party if we believe in good faith that the law or legal\r\nprocess so requires, or to protect the rights or property of niajiri or others. From time to time\r\nwe may extend various offers from various partner companies, including news or additional\r\ndetails on products and services. A user\'s usage history may result in specifically tailored\r\nspecial offer screens or products. We may also produce aggregate reports for advertisers. For\r\nexample, we may report to advertisers the number of users who clicked on an advertisement,\r\nor the number of users that visited different portions of the niajiri website. This information\r\nwill not include personally identifiable information about a user, or a specific user\'s online\r\nusage patterns.\r\nPayment Information\r\nIf you use the Service to make or receive payments, we will also collect certain payment\r\ninformation, such as credit card, PayPal or other financial account information, and billing\r\naddress. Not that this information shall never be shared with anyone and shall only be used\r\nfor billing purposes.\r\nProfile Information\r\nNiajiri allows Members to provide information to a profile and/or journal entry that is\r\naccessible to other users. We use this profile information for the purposes of providing our\r\nservices to you, such as to analyze demographics, to better personalize our various offerings\r\nfor users, or to enable other users to find your profile. All information, including any\r\npersonally identifiable information, which is disclosed by users in his/her or its for a business\r\ncentre public profile and journal entries are available for others to see. Please only post\r\ncontact information which is accessible to you at your convenience and for purposes this\r\nwebsite intends to serve, offering a platform to work. We also caution you not to share\r\nsensitive information (such as social security numbers, credit or debit card numbers or any\r\nsuch information that may compromise your business status) with other users whom you do\r\nnot know or place such information in your profile.\r\nSurveys And Contests\r\nAt various times we may offer surveys or contests to users. Surveys may ask for contact,\r\ndemographic or unique identifying information to increase the value of the results. Contests\r\nmay require contact information or other demographic or personally identifiable information\r\nin order to determine eligibility. Niajiri may use information collected from surveys and\r\ncontests for the entertainment of users, and to determine, notify and contact winners of\r\nvarious contests. In addition, users\' demographic and/or personally identifiable information\r\nand responses to survey and contest questions may be used by niajiri and/or shared with third\r\nparties in order to provide specifically tailored special offers or advertisements. Niajiri will not\r\nshare a user\'s email address with third parties unless the user specifically opts-in to such\r\nsharing during the completion of or registration for a survey or contest.\r\nThird Party Links And Ad Servers\r\nPlease be aware that links to third party websites and third-party ad server advertisements\r\nthat are found on niajiri may, or may not, use cookies, pixel tags and web tags. Niajiri may\r\nprovide links to third party websites, which may, or may not, use cookies, pixel tags and web\r\ntags. Ad servers may also use these tools to compile information about where users saw\r\nparticular advertisements, and to determine which ads were clicked on. We are not\r\nresponsible for, or have any control over, the privacy policies of those third-party websites\r\nand ad servers, and encourage all users to read the privacy policies of each and every website\r\nvisited when linking directly from niajiri.\r\nProtection Of Niajiri And Others\r\nNiajiri may disclose personally identifiable user information if required to do so by law or in\r\nthe good faith in belief that such disclosure is reasonably necessary to respond to court\r\nsummons, court orders, or other legal process. Niajiri may also disclose information about its\r\nusers to law enforcement officers or others, in the good faith belief in that such disclosure is\r\nreasonably necessary to: enforce our terms of use, respond to claims that any posting or other\r\ncontent violates the rights of third-parties; or protect the rights, property, or personal safety\r\nof niajiri, its users or the general public.\r\nSecurity\r\nNiajiri uses industry standard security measures to protect the loss, misuse and alteration of\r\nthe information under our control. Although we make good faith efforts to store the\r\ninformation collected by the niajiri website in a secure operating environment that is not\r\navailable to the public, we cannot guarantee complete security. Further, while we make every\r\neffort to ensure the integrity and security of our network and systems, we cannot guarantee\r\nthat our security measures will prevent third-party \"hackers\" from illegally obtaining this\r\ninformation.\r\nUpdating Or Removing User Information\r\nAs a registered user, you may, at any time, choose to correct or update the information you\r\nhave submitted to us. This may be done by the following method:\r\nLog in to your niajiri account on our website > Click the button that suits the information\r\nchange (Settings) > Change or edit any of the information there, and then click the button at\r\nthe bottom that says \"save\".\r\nAs a registered user, you may, at any time, cancel your account by following the instructions\r\nset forth in your Account page under settings.\r\nUsers can manage their mailing preferences to specify which type of email to opt out of on\r\ntheir Update Account Info page when they are logged in, canceling one\'s account will also\r\nprevent a user from receiving future communications from niajiri, and niajiri will not share\r\nthe user\'s information with third parties for marketing purposes.\r\nNo Spam Policy\r\nWe at niajiri.biz are opposed to spam. Our No Spam Policy and Terms of Service prohibit all\r\nusers from engaging in any activity involving spam on our service. Violations of these policies\r\nmay result in immediate termination of service and legal action against any spammer. Niajiri\r\nTerms of Service expressly prohibit users from uploading, posting, emailing, transmitting or\r\notherwise making available junk mail, commercial advertisements, or other form of\r\ncommercial solicitation on the niajiri website or through niajiri\'s services, any violation of our\r\npolicies, by sending unsolicited email advertisements to or through niajiri website. Any\r\nunauthorized use of niajiri.biz computer systems is a violation of our policies and certain laws,\r\nincluding the Copyright Laws of any country or county that one may reside and is subject to\r\nall Treaties related thereon. Such violations may subject the sender and his or her agents to\r\ncivil and criminal penalties.\r\nOther Disclosures –\r\nChange Of Ownership\r\nIn the event of a change in ownership, or a direct merger or acquisition with another entity,\r\nwe reserve the right to transfer all of niajiri\'s user information, including email addresses and\r\npostal addresses, to a separate entity. All registered users will be notified of any change in\r\nownership, merger or acquisition of niajiri`s assets by a third party, and may choose to modify\r\nany of their registration information at that time.\r\nRevisions To This Policy\r\nNiajiri reserves the right to revise, amend, or modify this policy and our other policies and\r\nagreements at any time and in any manner. Notice of any revision, amendment, or\r\nmodification will be posted on the website, and a user\'s continued use of niajiri will signify\r\nagreement to such changes.\r\nSafety, Security, And Privacy Overview\r\nNiajiri is committed to making its community safe. Since its founding in 2018, Niajiri has\r\ndesigned features specifically to enhance the safety of its online members. Highlights of\r\nNiajiri\'s safety, security and privacy measures include:\r\n1. A dedicated 24X7 customer team who review and respond to member content and\r\nconcerns.\r\n2. A strict policy that forbids abuse including but not limited to posting pornography,\r\nabusive messaging, restrictions on contact between adults and members under 18,\r\nspamming and phishing.\r\nOversight by safety and security shall be handled by the jambobee legal expert team. Niajiri\r\nis vigilant in its efforts to keep older members from contacting community members under\r\nthe age of 18 and has partnered with law enforcement to help ensure safety for everyone.\r\nSpecific steps Niajiri has taken include:\r\nGeneral Safety Tips:\r\n▪ Take caution when communicating with strangers.\r\n▪ Stop communicating with anyone who pressures you for personal or financial\r\ninformation.\r\n▪ If you choose to have a face-to-face meeting, always tell a friend or family member\r\nwhere you are going and when you will return, meet in a public place with many\r\npeople around, provide your own transportation, do not agree to be picked up at\r\nyour home.\r\n▪ Always transact within the bounds of niajiri to prevent fraudulent dealings by\r\nunscrupulous business persons\r\nPreventing Underage Users from Using Niajiri\r\nNiajiri\'s Terms of Use dictate that members must be 18 years of age or older to participate in\r\nits community. Niajiri prevents sign ups by users whose register under age 18. Protecting\r\nYounger Members from Inappropriate Content:\r\n1. Hosted images and videos are reviewed for compliance and inappropriate content is\r\nremoved and blocked from the site.\r\n2. Member accounts are deleted for uploading nudity and pornographic images and\r\nvideos.\r\n3. Groups are reviewed when inappropriate content is reported and shut down as\r\nrequired.\r\n4. Detailed IP logs are maintained for law enforcement teams who investigate abuse.\r\nReporting Inappropriate Content\r\nMembers are encouraged to report content offenses directly to the Niajiri Safety Squad.\r\nMembers can provide reasons when reporting images for Terms of Service violations.\r\nMembers can report spam messages, posts and inappropriate profiles to Niajiri. For more\r\ninstructions on our reporting features please visit our Report user page.\r\nPartnering With Law Enforcement\r\nCustomer Care Team: Responds to all abuse complaints within 72 hours.\r\nContent Assurance Team: Ensures integrity of safety systems and flags potential flaws.\r\nParent Care Team: Dedicated parent hotline, email (info@niajiri.biz) and guidebook.\r\nLaw Enforcement Team: Dedicated hotline, email (lawenforcement@niajiri.biz) and\r\nguidebook.\r\nSafety Squad Team: Dedicated safety team (safetysquad@niajiri.biz) who identifies potential\r\nproblems and takes immediate action when safety issues occur.\r\nApplication Security and Data Collection\r\nAll applications on Niajiri are governed by the same privacy controls that are in place for\r\nmembers. All applications must use Niajiri API\'s, which have built-in security features. Niajiri\r\ntakes action against applications that violate safety and security requirements.\r\nOngoing Support of Government Legislation to Prevent Safety Issues\r\nEmail Registration Legislation: Niajiri supports state legislation that would require registered\r\nsex offenders to register all of their email addresses, so that Niajiri can block them from\r\naccessing Niajiri in the first place. These measures represent just a sampling of the steps Niajiri\r\nhas taken to protect its community safety and enforce its rules.\r\nReporting Abuse\r\nWe work hard to keep Niajiri a fun, safe and business friendly place and appreciate your\r\nassistance in accomplishing this. If you see any material that violates our Terms of Service,\r\nplease report the specific item (a user\'s profile, photo, message, comment, etc.) using the\r\n\'Report Abuse\' links located throughout the site.\r\nTo report any incident involving child exploitation, please send an email to\r\nchildsafety@naijiri.biz This e-mail address is being protected from spambots. You need\r\nJavaScript enabled to view it immediately.\r\n', 1, 'config', '2021-12-07', 1),
 (6271, 'about_us', '<p style=\"text-align:center\"><span style=\"font-size:16px\"><span style=\"font-family:Almarai,sans-serif\"><strong>نجاحاتنا </strong></span></span></p>\r\n\r\n<p style=\"text-align:center\"><span style=\"font-size:16px\"><span style=\"font-family:Almarai,sans-serif\"><strong>نجمع أكثر من 100 الشركاء حول المملكة تحت سقف واحد لتكون خدماتنا هي العناية</strong></span></span></p>\r\n', 1, 'config', '2021-12-07', 1),
 (6272, 'meta_title', 'Niajiri', 1, 'config', '2022-02-17', 1),
 (6273, 'meta_keywords', 'Craftesty', 1, 'config', '2021-12-07', 1),
@@ -57827,7 +57827,7 @@ INSERT INTO `system_settings` (`id`, `key`, `value`, `system`, `groups`, `update
 (7216, 'services_count', '20', 1, 'config', '2023-05-08', 1),
 (7427, 'how_showhide', '1', 1, 'config', '2023-05-09', 1),
 (7428, 'how_title', 'How It Works', 1, 'config', '2023-05-09', 1),
-(7429, 'how_content', 'Its so easy to find services...here is how', 1, 'config', '2023-05-09', 1),
+(7429, 'how_content', 'It\'s so easy to find services...here is how', 1, 'config', '2023-05-09', 1),
 (7430, 'how_title_1', 'Choose What To Do', 1, 'config', '2023-05-09', 1),
 (7431, 'how_content_1', 'Select the Right Service From Your Favorite Service Provider', 1, 'config', '2023-05-09', 1),
 (7432, 'how_title_2', 'Book The Service', 1, 'config', '2023-05-09', 1),
@@ -57901,7 +57901,7 @@ CREATE TABLE `theme_color_change` (
   `status` enum('1','0') NOT NULL DEFAULT '0',
   `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `theme_color_change`
@@ -58028,7 +58028,7 @@ CREATE TABLE `user_billing_details` (
   `status` tinyint(1) NOT NULL,
   `updated_on` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `created_on` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `user_billing_details`
@@ -58578,7 +58578,7 @@ CREATE TABLE `wallet_withdraw` (
   `created_by` tinyint NOT NULL,
   `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Indexes for dumped tables
