@@ -91,13 +91,13 @@ if ($type == 'user') {
                             </a>
                         </div>
                         <ul class="main-nav">
-                            <li class="has-submenu">               
-                                <a href="<?php echo base_url(); ?>all-services">Shops<i class="fas fa-chevron-down"></i></a>
+                            <!-- <li class="has-submenu">               
+                                <a href="<?php //echo base_url(); ?>all-services">Shops<i class="fas fa-chevron-down"></i></a>
                                 <ul class="submenu">
-                                    <li><a href="<?php echo base_url(); ?>all-services">Shops & Services</a></li>
-                                    <li><a href="<?php echo base_url(); ?>products">Products</a></li>
+                                    <li><a href="<?php //echo base_url(); ?>all-services">Shops & Services</a></li>
+                                    <li><a href="<?php //echo base_url(); ?>products">Products</a></li>
                                 </ul>
-                            </li>
+                            </li> -->
                             <?php if($header_settings->header_menu_option == 1 && !empty($header_settings->header_menus) ) { 
                                  $menus = json_decode($header_settings->header_menus);
                                     foreach($menus as $menu) { 
