@@ -91,13 +91,13 @@ if ($type == 'user') {
                             </a>
                         </div>
                         <ul class="main-nav">
-                            <!-- <li class="has-submenu">               
+                            <li class="has-submenu">               
                                 <a href="<?php //echo base_url(); ?>all-services">Shops<i class="fas fa-chevron-down"></i></a>
                                 <ul class="submenu">
-                                    <li><a href="<?php //echo base_url(); ?>all-services">Shops & Services</a></li>
-                                    <li><a href="<?php //echo base_url(); ?>products">Products</a></li>
+                                    <li><a href="<?php echo base_url(); ?>all-services">Shops & Services</a></li>
+                                    <!--<li><a href="<?php //echo base_url(); ?>products">Products</a></li>-->
                                 </ul>
-                            </li> -->
+                            </li> 
                             <?php if($header_settings->header_menu_option == 1 && !empty($header_settings->header_menus) ) { 
                                  $menus = json_decode($header_settings->header_menus);
                                     foreach($menus as $menu) { 
@@ -180,28 +180,31 @@ if ($type == 'user') {
                                 <li><a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#modal-wizard1"><?php echo (!empty($user_language[$user_selected]['lg_become_user'])) ? $user_language[$user_selected]['lg_become_user'] : $default_language['en']['lg_become_user']; ?></a></li>
                                 
                             <?php } ?> 
+                        <!-- fetching user's language -->
                         <?php if($header_settings->language_option == 1) { ?>
-                        <li class="has-submenu">
-                            <a href="javascript:;"><?php echo $lang; ?><i class="fas fa-chevron-down"></i></a>
-                            <ul class="submenu lang-blk">
-                                <?php foreach ($active_language as $active) { ?>
-                                    <li>
+                            <li class="has-submenu">
+                                <a href="javascript:;"><?php echo $lang; ?><i class="fas fa-chevron-down"></i></a>
+                                <ul class="submenu lang-blk">
+                                    <?php foreach ($active_language as $active) { ?>
+                                        <li>
 
-                                        <input type="hidden" name="<?php echo $this->security->get_csrf_token_name(); ?>" value="<?php echo $this->security->get_csrf_hash(); ?>" id="csrf_lang"/>
+                                            <input type="hidden" name="<?php echo $this->security->get_csrf_token_name(); ?>" value="<?php echo $this->security->get_csrf_hash(); ?>" id="csrf_lang"/>
 
-                                        <a href="javascript:;" id="change_language"  lang_tag="<?php echo $active['tag']; ?>" lang="<?php echo $active['language_value']; ?>" <?php
-                                        if ($active['language_value'] == $lang) {
-                                            echo "selected";
-                                        }
-                                        ?>>
-                                            <?php echo ($active['language']); ?></a></li>
-                                <?php } ?>
-                            </ul>
-                        </li>
-                    <?php } ?>
+                                            <a href="javascript:;" id="change_language"  lang_tag="<?php echo $active['tag']; ?>" lang="<?php echo $active['language_value']; ?>" <?php
+                                            if ($active['language_value'] == $lang) {
+                                                echo "selected";
+                                            }
+                                            ?>>
+                                                <?php echo ($active['language']); ?></a></li>
+                                    <?php } ?>
+                                </ul>
+                            </li>
+                        <?php } ?>
                             <?php
+                            //get the user's currency
                         if ($userId != '') {
                             $get_currency = get_currency();
+                            
                             if ($type == 'user') {
                                 $user_currency = get_user_currency();
                             } else if ($type == 'provider') {
@@ -210,6 +213,7 @@ if ($type == 'user') {
                             $user_currency_code = $user_currency['user_currency_code'];
 
                             if($header_settings->currency_option == 1 && $this->session->userdata('usertype') != 'admin') { ?>
+                            
                             <li class="has-submenu">
                                 <span class="currency-blk">
                                 <select class="form-control-sm custom-select" id="user_currency"> 
@@ -221,29 +225,33 @@ if ($type == 'user') {
                             </li>
 
                         <?php } } ?>
-                            <?php if ($usertype == 'user') 
-                            {
-                                $CI->load->model('home_model');
-                                $cities = $CI->home_model->user_city_list($userId);
-                                $selected_city = $this->session->userdata('selected_city');
+                        
+                            <?php
+                            
+                             if ($usertype == 'user'){
+
+                                    $CI->load->model('home_model');
+                                    $cities = $CI->home_model->user_city_list($userId);
+                                    $selected_city = $this->session->userdata('selected_city');
                                 if (!empty($cities)) {
-                            ?>
-                            <li class="has-submenu">
-                                <span class="currency-blk language-select">
-                                <select class="form-control-sm" onchange="user_select_city(this.value)">
-                                    <option value="">Select City</option>
-                                    <?php foreach ($cities as $c) { ?>
-                                        <option value="<?php echo $c['city_name']?>" <?php echo ($selected_city == $c['city_name'] ? 'selected' : '')?>><?php echo $c['city_name']; ?></option>
-                                    <?php } ?> 
-                                </select> 
-                                </span>     
-                            </li>
+                                ?>
+                                <li class="has-submenu">
+                                    <span class="currency-blk language-select">
+                                    <select class="form-control-sm" onchange="user_select_city(this.value)">
+                                        <option value="">Select City</option>
+                                        <?php foreach ($cities as $c) { ?>
+                                            <option value="<?php echo $c['city_name']?>" <?php echo ($selected_city == $c['city_name'] ? 'selected' : '')?>><?php echo $c['city_name']; ?></option>
+                                        <?php } ?> 
+                                    </select> 
+                                    </span>     
+                                </li>
                             <?php }
                             } ?>
+                            
                             <?php
                             if (($this->session->userdata('id') != '') && ($this->session->userdata('usertype') == 'provider' || $this->session->userdata('usertype') == 'freelancer')) {
 
-
+                                
                                 $get_details = $this->db->where('id', $this->session->userdata('id'))->get('providers')->row_array();
                                 $get_availability = $this->db->where('provider_id', $this->session->userdata('id'))->get('business_hours')->row_array();
                                 if (!empty($get_availability['availability'])) {
@@ -251,6 +259,7 @@ if ($type == 'user') {
                                 } else {
                                     $check_avail = 2;
                                 }
+                                
     							
     							$getShop = $this->db->where('provider_id', $this->session->userdata('id'))->where('status', 1)->get('shops')->result_array();
     							
@@ -261,18 +270,19 @@ if ($type == 'user') {
     							if($this->session->userdata('usertype') == 'freelancer'){							
     								$staffCount = 1;
     							}
-
+                                
                                 $get_subscriptions = $this->db->select('*')->from('subscription_details')->where('subscriber_id', $this->session->userdata('id'))->where('expiry_date_time >=', date('Y-m-d 00:00:59'))->get()->row_array();
-                                if (!isset($get_subscriptions)) {
+                                if(!isset($get_subscriptions)) {
                                     $get_subscriptions['id'] = '';
                                 }
-                                if (!empty($get_availability) && !empty($get_subscriptions['id']) && $check_avail > 5 && count($getShop) > 0 && $staffCount > 0) {
-                                    ?>
+                                if(!empty($get_availability) && !empty($get_subscriptions['id']) && $check_avail > 5 && count($getShop) > 0 && $staffCount > 0) {
+                                    ?>                                    
                                     <li class="mobile-list d-none">
                                         <a href="<?php echo base_url(); ?>add-service"><?php echo (!empty($user_language[$user_selected]['lg_post_service'])) ? $user_language[$user_selected]['lg_post_service'] : $default_language['en']['lg_post_service']; ?></a>
                                     </li>
-                                    <?php
+                                 <?php
                                 } elseif ($get_subscriptions['id'] == '') { 
+                                    echo $user_language[$user_selected]['lg_Please_Subscripe'];
     									$stitle=(!empty($user_language[$user_selected]['lg_Please_Subscripe'])) ? $user_language[$user_selected]['lg_Please_Subscripe'] : $default_language['en']['lg_Please_Subscripe'];
     									$sstile=(!empty($user_language[$user_selected]['lg_Choose_Subscribe_Plan'])) ? $user_language[$user_selected]['lg_Choose_Subscribe_Plan'] : $default_language['en']['lg_Choose_Subscribe_Plan'];
                                     ?>
@@ -299,6 +309,7 @@ if ($type == 'user') {
                                     </li> 
                                     <?php
                                 }  elseif ($staffCount == 0 && $this->session->userdata('usertype') == 'provider') { 
+                                    
     									$stftit=(!empty($user_language[$user_selected]['lg_Please_Add_Staff'])) ? $user_language[$user_selected]['lg_Please_Add_Staff'] : $default_language['en']['lg_Please_Add_Staff'];
     									$stftxt=(!empty($user_language[$user_selected]['lg_Add_Staff_Details'])) ? $user_language[$user_selected]['lg_Add_Staff_Details'] : $default_language['en']['lg_Add_Staff_Details'];
                                     ?>
@@ -336,7 +347,7 @@ if ($type == 'user') {
                                         if ($type == 'user') {
                                             $user_currency = get_user_currency();
                                         } else if ($type == 'provider') {
-                                            $user_currency = get_provider_currency();
+                                            $user_currency = get_provider_currency();                                            
                                         } else if ($type == 'freelancer') {
                                             $user_currency = get_provider_currency();
                                         }
@@ -351,6 +362,7 @@ if ($type == 'user') {
                             }
     					
                         }
+                        
                         ?>
                         <?php
                         if (($this->session->userdata('id') != '') && ($this->session->userdata('usertype') == 'user')) 
@@ -685,6 +697,7 @@ if ($type == 'user') {
                                             <div class="user-text">
                                                 <h6><?php echo $user_details['name']; ?></h6>
                                                 <p class="text-muted mb-0"><?php echo (!empty($user_language[$user_selected]['lg_provider'])) ? $user_language[$user_selected]['lg_provider'] : $default_language['en']['lg_provider']; ?></p>
+                                                <a class="text-muted mb-0" href="<?php echo $base_url.'/provider-payment' ?>">bal : <?php echo $wallet?></a>
                                             </div>
                                         </div>
                                         <?php
@@ -1024,7 +1037,7 @@ if ($type == 'user') {
                                 </div>
                             </li>
                             <!-- /User Menu -->
-                        <?php }
+                            <?php }
                     }
                     ?>
                     </ul>

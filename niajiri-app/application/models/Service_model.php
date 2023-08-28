@@ -8,7 +8,7 @@ class Service_model extends CI_Model
 		parent::__construct();
                 
 	}
- 
+  
 
     public function create_service($inputs)
 	{
@@ -17,9 +17,9 @@ class Service_model extends CI_Model
 	}
 
 	public function insert_serviceimage($image)
-	  {
+	  { 
 	    $this->db->insert('services_image',$image);
-	    $this->db->where(array('service_id' => $image['service_id']));
+	   // $this->db->where(array('service_id' => $image['service_id']));
 	    return $this->db->affected_rows() != 0 ? true : false; 
 	  }
 
@@ -137,7 +137,7 @@ class Service_model extends CI_Model
 
         
      }
-
+ 
      public function popular_service()
      {
        $this->db->select("s.id,s.user_id,s.service_title,s.service_amount,s.mobile_image,s.currency,c.category_name,c.category_image,r.rating,sc.subcategory_name");

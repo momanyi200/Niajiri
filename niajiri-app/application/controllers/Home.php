@@ -361,7 +361,7 @@ class Home extends CI_Controller {
         $this->load->view('user/template');
     }
 
-    public function services() {
+    public function services() { 
         $conditions['returnType'] = 'count';
         $inputs = array();
         $type = $this->session->userdata('usertype');

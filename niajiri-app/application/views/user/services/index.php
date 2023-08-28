@@ -53,7 +53,7 @@ if (!empty($result)) {
 								<label><?php echo (!empty($user_language[$user_selected]['lg_Location'])) ? $user_language[$user_selected]['lg_Location'] : $default_language['en']['lg_Location']; ?></label>
 								<input class="form-control location" type="text" id="service_location" value="<?php if (isset($_POST["user_address"]) && !empty($_POST["user_address"])) echo $_POST["user_address"]; ?>" placeholder="<?php echo (!empty($user_language[$user_selected]['lg_Search_Location'])) ? $user_language[$user_selected]['lg_Search_Location'] : $default_language['en']['lg_Search_Location']; ?>" name="user_address" >
 								<input type="hidden" value="<?php if (isset($_POST["user_latitude"]) && !empty($_POST["user_latitude"])) echo $_POST["user_latitude"]; ?>" id="service_latitude">
-								<input type="hidden" value="<?php if (isset($_POST["user_longitude"]) && !empty($_POST["user_longitude"])) echo $_POST["user_longitude"]; ?>" id="service_longitude">
+								<input type="hidden" value="<?php if (isset($_POST["user_longitude"]) && !empty($_POST["user_longitude"])) echo $_POST["user_longitude"]; ?>" id="service_longitude"> 
 							</div>
                         </div>
                         <div class="col-lg-4 col-sm-6 col-12">
@@ -70,7 +70,7 @@ if (!empty($result)) {
                         <div class="col-lg-4 col-sm-6 col-12">
 							<div class="form-group">
 								<label class="filter-title"><?php echo (!empty($user_language[$user_selected]['lg_Keyword'])) ? $user_language[$user_selected]['lg_Keyword'] : $default_language['en']['lg_Keyword']; ?></label>
-								<input type="text" id="common_search" value="<?php if (isset($_POST["common_search"]) && !empty($_POST["common_search"])) echo $_POST["common_search"]; ?>" class="form-control common_search location" placeholder="<?php echo (!empty($user_language[$user_selected]['lg_looking_for'])) ? $user_language[$user_selected]['lg_looking_for'] : $default_language['en']['lg_looking_for']; ?>" />
+								<input type="text" id="common_search" value="<?php if (isset($_POST["common_search"]) && !empty($_POST["common_search"])) echo $_POST["common_search"]; ?>" class="form-control common_search " placeholder="<?php echo (!empty($user_language[$user_selected]['lg_looking_for'])) ? $user_language[$user_selected]['lg_looking_for'] : $default_language['en']['lg_looking_for']; ?>" />
 							</div>
                         </div>
                         <div class="col-lg-4 col-sm-6 col-12">

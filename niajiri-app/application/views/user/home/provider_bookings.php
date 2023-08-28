@@ -178,6 +178,12 @@
                                                     <?php echo wordwrap($bookings['service_title'], 70, '<br />', true).$sessiontxt; ?>
                                                 </a>
                                             </h3>
+                                            <!-- viewing if the servicce is funded -->
+                                            <?php if($booking['deposit_flag']==0){ ?>
+                                                <span class="badge badge-secondary">Not funded yet</span>
+                                            <?php }elseif($booking['deposit_flag'==1]){?>
+                                                <span class="badge badge-secondary">funded</span>
+                                            <?php }?>
 											<?php if($rewardStatus != '' && $reward['reward_type'] == 0) { ?>
 											<span class="badge badge-pill bg-warning-light mb-2"><?php echo $rewardStatus?></span>
 											<?php } else { ?>

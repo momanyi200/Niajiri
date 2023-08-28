@@ -6,7 +6,7 @@ class Shop extends CI_Controller {
 
 	public $data;
 
-   public function __construct() {
+   public function __construct() { 
 
         parent::__construct();
         error_reporting(0);
@@ -1100,7 +1100,7 @@ class Shop extends CI_Controller {
 		}
 
 
-/*apns push notification*/
+		/*apns push notification*/
 		}else{
 		 $this->token_error();
 		}

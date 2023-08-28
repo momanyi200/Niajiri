@@ -81,8 +81,14 @@ $product_count = $this->db->where('shop_id', $shop['id'])->count_all_results('pr
 							<?php if($type == "") {?>
 								<br>
 								<button class="btn btn-secondary" id="prod_modal" onclick="product_submit_modal($type)"><?php echo $product_count; ?> Products</button>
-							<?php }else{?>
+							<?php }elseif($type == "user" || $type == "provider") {?>
+
+								<a class="btn btn-secondary" href="#"><?php echo $product_count; ?> Products</a>
+							
+							<?php }else{?>	
+
 								<a class="btn btn-secondary" href="<?php echo base_url() . 'my-products/'.$shop['id']; ?>"><?php echo $product_count; ?> Products</a>
+							
 							<?php } ?>
                         </div>
                     </div>

@@ -25,7 +25,7 @@ class Dashboard extends CI_Controller {
           // Load pagination library 
 		   $this->load->library('paypal_lib');
     $this->load->library('ajax_pagination'); 
-	$this->load->helper('form');
+	  $this->load->helper('form');
         $this->data['csrf'] = array(
 	    'name' => $this->security->get_csrf_token_name(),
 	    'hash' => $this->security->get_csrf_hash()

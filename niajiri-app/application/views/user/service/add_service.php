@@ -1,6 +1,6 @@
 <?php
 $type = $this->session->userdata('usertype');
-if ($type == 'user') {
+if ($type == 'user') { 
 	$user_currency = get_user_currency();
 } else if ($type == 'provider') {
 	$user_currency = get_provider_currency();

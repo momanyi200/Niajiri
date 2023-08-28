@@ -139,7 +139,8 @@ class Service extends CI_Controller {
             removeTag($this->input->post());
            
             $config["upload_path"] = './uploads/services/';
-            $config["allowed_types"] = '*';
+            $config["allowed_types"] = 'gif|jpg|png|jpeg|pdf|doc|xml';
+            $config['overwrite'] = TRUE;
             $this->load->library('upload', $config);
             $this->upload->initialize($config);
 
@@ -148,15 +149,18 @@ class Service extends CI_Controller {
             $mobile_image = array();
 
             if ($_FILES["images"]["name"] != '') {
+               
                 if (!is_dir('uploads/services')) {
                     mkdir('./uploads/services', 0777, TRUE);
                 }
+                
                 for ($count = 0; $count < count($_FILES["images"]["name"]); $count++) {
                     $_FILES["file"]["name"] = 'full_' . time() . $_FILES["images"]["name"][$count];
                     $_FILES["file"]["type"] = $_FILES["images"]["type"][$count];
                     $_FILES["file"]["tmp_name"] = $_FILES["images"]["tmp_name"][$count];
                     $_FILES["file"]["error"] = $_FILES["images"]["error"][$count];
                     $_FILES["file"]["size"] = $_FILES["images"]["size"][$count];
+
                     if ($this->upload->do_upload('file')) {
                         $data = $this->upload->data();
                         $image_url = 'uploads/services/' . $data["file_name"];
@@ -165,6 +169,8 @@ class Service extends CI_Controller {
                         $service_details_image[] = $this->image_resize(820, 440, $image_url, 'de_' . $data["file_name"], $upload_url);
                         $thumb_image[] = $this->image_resize(60, 60, $image_url, 'th_' . $data["file_name"], $upload_url);
                         $mobile_image[] = $this->image_resize(280, 160, $image_url, 'mo_' . $data["file_name"], $upload_url);
+
+                        
                     }
                 }
             }
@@ -548,7 +554,7 @@ class Service extends CI_Controller {
 
 
 
-            for ($i = 0; $i < $temp; $i++) {
+            for ($i = 0; $i < $temp; $i++) { 
                 $image = array(
                     'service_id' => $service_id,
                     'service_image' => $service_image[$i],

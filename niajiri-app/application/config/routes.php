@@ -223,7 +223,7 @@ $route['staff-lists'] = 'admin/staffs/staff_lists';
 $route['view-staff-details/(:num)'] = 'admin/staffs/staff_details/$1';
 
 
-/*web*/
+/*web*/ 
 
 $route['all-categories'] = 'categories';
 $route['maincategories/(:any)'] = 'categories/subcategories/$1';

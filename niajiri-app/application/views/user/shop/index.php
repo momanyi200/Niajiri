@@ -4,7 +4,7 @@
             <div class="col">
                 <div class="breadcrumb-title">
                     <h2><?php echo (!empty($user_language[$user_selected]['lg_My_Shops'])) ? $user_language[$user_selected]['lg_My_Shops'] : $default_language['en']['lg_My_Shops']; ?></h2>
-                </div>
+                </div> 
             </div>
             <div class="col-auto float-end ms-auto breadcrumb-menu">
                 <nav aria-label="breadcrumb" class="page-breadcrumb">
@@ -229,9 +229,9 @@ $getShop = $getShop - 1;
                 <input type='hidden' name='business' value="<?php echo $this->session->userdata('email'); ?>"> 
                 <input type='hidden' name='item_number' value="123456"> 
                 <input type='hidden' name='amount' value='<?php echo settingValue('shop_fee'); ?>'> 
-            <input type='hidden' name='currency_code' value='USD'>
-            <input type='hidden' name='return' value="<?php echo base_url() ?>user/shop/paypal_shop_payment/<?php echo settingValue('shop_fee'); ?>">
-            <input type="hidden" name="cmd" value="_xclick">  
+                <input type='hidden' name='currency_code' value='USD'>
+                <input type='hidden' name='return' value="<?php echo base_url() ?>user/shop/paypal_shop_payment/<?php echo settingValue('shop_fee'); ?>">
+                <input type="hidden" name="cmd" value="_xclick">  
                     <input type="hidden" id="paypal_gateway" value="<?php echo $paypal_gateway; ?>">
                     <input type="hidden" id="braintree_key" value="<?php echo $braintree_key; ?>">
                     

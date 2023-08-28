@@ -1,7 +1,7 @@
 <?php
 $this->db->from('services');
 $services_count = $this->db->count_all_results();
-$this->db->from('services');
+$this->db->from('services'); 
 $this->db->where('status', 1);
 $this->db->order_by('total_views', 'DESC');
 $this->db->limit(3);
