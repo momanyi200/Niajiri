@@ -932,8 +932,9 @@ public function provider_bookings()
 
   $this->data['page'] = 'provider_bookings';
   $provider_id = $this->session->userdata('id');
-  $status = $this->input->post('status'); 
+  $status = $this->input->post('status');  
   $sortBy = $this->input->post('sortBy'); 
+  
 
   if(!empty($status)){ 
     $conditions['where']['b.status']=$status;

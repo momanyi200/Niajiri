@@ -190,6 +190,12 @@
                                                 <a href="<?php echo $service_url.$usr_url; ?>">
                                                     <?php echo wordwrap($bookings['service_title'], 70, '<br />', true).$sessiontxt; ?>
                                                 </a>
+                                                <?php  if(empty($bookings['payment_status'])) {  ?>	
+                                                    <span class="badge badge-pill badge-prof bg-secondary<?php echo $class; ?>">Not Funded</span>
+                                                <?php }else{?>
+                                                    <span class="badge badge-pill badge-prof bg-success">Funded</span>
+                                                
+                                                <?php } ?>
                                                 <span class="badge badge-pill badge-prof <?php echo $class; ?>"><?php echo  $badge; ?></span>
 											  <?php  if($bookings['status']==6) {  ?>	
 											   <span class="badge badge-pill badge-prof <?php echo $class; ?>"><?php echo 'Satisfied Service'; ?></span>

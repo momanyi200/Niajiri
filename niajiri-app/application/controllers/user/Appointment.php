@@ -160,6 +160,7 @@ class Appointment extends CI_Controller {
     }
 
 	public function book_appointment() {
+
 		if (empty($this->session->userdata('id'))) {
             redirect(base_url());
         }
@@ -201,7 +202,8 @@ class Appointment extends CI_Controller {
         $this->load->vars($this->data);
         $this->load->view($this->data['theme'] . '/template');
     }
-		public function checkout() {
+	
+	public function checkout() {
 			
 		$book_id = decrypt_url($this->uri->segment('2'),$this->config->item('encryption_key'));
 		

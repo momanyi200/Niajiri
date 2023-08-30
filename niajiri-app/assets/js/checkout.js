@@ -344,7 +344,7 @@ $('#my_stripe_payyment').on('click', function(e) {
 			var totalamt = $("#amount").val();
 			var ref_id = $("#ref_id").val();
 			
-				$.ajax({
+				$.ajax({ 
 				 url: base_url+'user/appointment/booking_service_mpesa_payment/',
 				 data: {type:"M-PESA",bookid: book_id, amount: totalamt, csrf_token_name:csrf_token,mobile_no: mob_no,ref_id: ref_id},
 				 type: 'POST',	

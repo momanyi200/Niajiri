@@ -360,7 +360,7 @@ $mobile_no = $this->db->select('*')->
 				<input type="hidden" id="booking_id" value="<?php echo $bookings['id']; ?>">
 				<button id="my_stripe_payyment" style="display: none;">Purchase</button>
 
-
+ 
 
 				<div class="modal" id="mpesa_paymodal">
 					<div class="modal-dialog">
