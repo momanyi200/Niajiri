@@ -1,5 +1,5 @@
 (function($) {
-	"use strict";
+	"use strict"; 
 	
 	var base_url=$('#base_url').val();
 	var BASE_URL=$('#base_url').val();

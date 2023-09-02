@@ -828,7 +828,7 @@ class Service extends CI_Controller {
         }
     }
 	
-    public function update_status_user() {
+    public function update_status_user() { 
         extract($_POST);
         if (empty($this->session->userdata('id'))) {
             echo "3";
@@ -838,7 +838,7 @@ class Service extends CI_Controller {
         $book_details['status'] = $this->input->post('status');
         $book_details['id'] = $this->input->post('booking_id');
         $book_details['updated_on'] = (date('Y-m-d H:i:s'));
-
+ 
         if (!empty($this->input->post('booking_id'))) {
             $old_booking_status = $this->db->where('id', $this->input->post('booking_id'))->get('book_service')->row();
 

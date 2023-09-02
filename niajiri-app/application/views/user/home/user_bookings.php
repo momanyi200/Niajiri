@@ -325,6 +325,7 @@
 										} 
 										/* Booking Edit Until 1Hour */
 										
+                                        
 										/* Booking Cancel 24Hour */
 										$allowcancel='';
 										$mybook_time = date('Y-m-d H:i:s',strtotime($reqdata . ' +3600 minutes'));

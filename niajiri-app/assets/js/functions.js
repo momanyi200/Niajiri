@@ -1581,9 +1581,9 @@ function update_pro_cancel_booking_status(bookid,status,rowid,review){
 
 /*user update the status*/
 
-function update_user_booking_status(bookid,status,rowid,review){ 
+function update_user_booking_status(bookid,status,rowid,review){  
   if(status==5 || status==7){
-   $('#myCancel').modal('hide');
+   $('#myCancel').modal('hide'); 
  }
  $.confirm({
   title: 'Confirmations..!',

@@ -20,7 +20,7 @@
 	var service_offerid ='';
 	var cod='';
 
-	var daysCount = '';
+	var daysCount = ''; 
 
 
   $('#book_services').bootstrapValidator({
