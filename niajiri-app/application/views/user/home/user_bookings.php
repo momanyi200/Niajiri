@@ -341,6 +341,9 @@
                                                 <i class="far fa-edit"></i> <?php echo (!empty($user_language[$user_selected]['lg_Edit'])) ? $user_language[$user_selected]['lg_Edit'] : $default_language['en']['lg_Edit']; ?>
                                             </a>
 										<?php } } ?>
+                                        <?php if(empty($booking['payment_status'])){ ?>
+                                            <a class="btn btn-secondary btn-sm" href="">Proceed to payment</a>
+                                        <?php } ?>
                                         <?php if ($bookings['status'] == 2) { ?>
                                             <a href="<?php echo base_url() ?>user-chat/booking-new-chat?book_id=<?php echo $bookings['id'] ?>" class="btn btn-sm bg-info-light">
                                                 <i class="far fa-eye"></i> <?php echo (!empty($user_language[$user_selected]['lg_chat'])) ? $user_language[$user_selected]['lg_chat'] : $default_language['en']['lg_chat']; ?>

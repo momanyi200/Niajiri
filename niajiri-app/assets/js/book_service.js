@@ -7,15 +7,15 @@
 	var csrfName=$('#csrfName').val();
 	var csrfHash=$('#csrfHash').val();
 	var service_id ='';
-var provider_id ='';
-var final_gig_amount1 ='';
-var booking_date ='';
-var booking_time ='';
-var service_location ='';
-var service_latitude ='';
-var service_longitude ='';
-var notes='';
-var cod='';
+  var provider_id ='';
+  var final_gig_amount1 ='';
+  var booking_date ='';
+  var booking_time ='';
+  var service_location ='';
+  var service_latitude ='';
+  var service_longitude ='';
+  var notes='';
+  var cod='';
 	function booking_procces(e){
    
 		service_id = $(e).attr('data-id');
