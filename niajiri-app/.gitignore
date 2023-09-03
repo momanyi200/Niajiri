@@ -1,5 +1,6 @@
 .DS_Store
 .phpintel
+.env
 application/cache/*
 !application/cache/index.html
 application/logs/*
@@ -29,3 +30,6 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 
 storage/sessions/
 storage/logs/
+
+##database configs ignore
+application/config/database.php

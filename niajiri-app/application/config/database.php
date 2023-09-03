@@ -71,20 +71,34 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | the query builder class.
 */
 
+/**get the db credentieals from .env*/
+// $db_host = getenv('DB_HOST');
+// $db_user = getenv('DB_USER');
+// $db_name = getenv('DB_NAME');
+// $db_pass = getenv('DB_PASS');
+// $port = getenv('PORT');
+
+// $db_host = $_ENV['DB_HOST'];
+// $db_host =  $_SERVER['DB_HOST'];
+
+// $db_user = $_ENV['DB_USER'];
+// $db_name = $_ENV['DB_NAME'];
+// $port = $_ENV['PORT'];
+
 $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
    'dsn' => '',
    'hostname' => 'localhost',
-   'username' => 'pmauser',
-   'password' => 'climass2010',
-   'database' => 'newniajiri',
-   // 'username' => 'root',
-   // 'password' => '',
-   // 'database' => 'dbniajiri',  
+   // 'username' => 'pmauser',
+   // 'password' => 'climass2010',
+   // 'database' => 'newniajiri',
+   'username' => 'root',
+   'password' => '',
+   'database' => 'dbniajiri',  
    'dbdriver' => 'mysqli',
-   'port' => '3306',
+   'port' => 3306,
    'dbprefix' => '',
    'pconnect' => FALSE,
    'db_debug' => FALSE,
