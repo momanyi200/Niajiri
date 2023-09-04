@@ -80,7 +80,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 // $db_host = $_ENV['DB_HOST'];
 // $db_host =  $_SERVER['DB_HOST'];
-
 // $db_user = $_ENV['DB_USER'];
 // $db_name = $_ENV['DB_NAME'];
 // $port = $_ENV['PORT'];
